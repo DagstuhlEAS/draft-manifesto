@@ -11,7 +11,21 @@
 \contentsline {subsection}{Software Projects}{9}{subsection.2.4}
 \contentsline {subsection}{Sustainability}{9}{subsection.2.5}
 \contentsline {section}{Future Research Directions}{9}{section.3}
-\contentsline {section}{Related Material}{9}{appendix.A}
+\contentsline {subsection}{Quantifying the state of scientific software availability.}{10}{subsection.3.1}
+\contentsline {subsection}{Sustainability of software experimentation}{10}{subsection.3.2}
+\contentsline {subsection}{Facilitating software discovery within and across disciplines}{11}{subsection.3.3}
+\contentsline {subsection}{Software engineering tools improving productivity by tailoring to intent and skill}{11}{subsection.3.4}
+\contentsline {subsection}{Econometrics of infrastructure and hidden software}{11}{subsection.3.5}
+\contentsline {subsection}{Baseline practices and product quality as well as their expected changes}{12}{subsection.3.6}
+\contentsline {subsection}{Scientist Centric and Model Centric Scientific Software Engineering}{12}{subsection.3.7}
+\contentsline {subsection}{What is the invisible work of engineering academic software?}{12}{subsection.3.8}
+\contentsline {subsection}{Metaphor, language, and contextuality}{12}{subsection.3.9}
+\contentsline {subsection}{Software as communication}{12}{subsection.3.10}
+\contentsline {subsection}{What?s different about research software outside the sciences - e.g. in humanities?}{12}{subsection.3.11}
+\contentsline {subsection}{Analysis of scientific software ecosystem metadata}{13}{subsection.3.12}
+\contentsline {subsection}{Techniques/metrics for evaluating the likely success and impact of proposed / nascent academic software projects}{13}{subsection.3.13}
+\contentsline {subsection}{Re-tooling the bibliographic software toolchain for software citation}{13}{subsection.3.14}
+\contentsline {section}{Related Material}{14}{appendix.A}
 \let \@secpagenumber \relax 
-\contentsline {section}{Participants}{12}{appendix.B}
-\contentsline {section}{References}{12}{appendix.B}
+\contentsline {section}{Participants}{17}{appendix.B}
+\contentsline {section}{References}{17}{appendix.B}
