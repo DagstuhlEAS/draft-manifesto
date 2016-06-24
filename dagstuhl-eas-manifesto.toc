@@ -5,7 +5,12 @@
 \let \@secpagenumber \relax 
 \contentsline {section}{Introduction}{4}{section.1}
 \contentsline {section}{Responsible Academic Software Development}{6}{section.2}
-\contentsline {section}{Future Research Directions}{6}{section.3}
+\contentsline {subsection}{Citation \& Reviewing}{8}{subsection.2.1}
+\contentsline {subsection}{Recognition}{8}{subsection.2.2}
+\contentsline {subsection}{Making intellectual content visible}{8}{subsection.2.3}
+\contentsline {subsection}{Software Projects}{8}{subsection.2.4}
+\contentsline {subsection}{Sustainability}{8}{subsection.2.5}
+\contentsline {section}{Future Research Directions}{8}{section.3}
 \let \@secpagenumber \relax 
-\contentsline {section}{Participants}{7}{section.4}
-\contentsline {section}{References}{7}{section.4}
+\contentsline {section}{Participants}{9}{section.4}
+\contentsline {section}{References}{9}{section.4}
