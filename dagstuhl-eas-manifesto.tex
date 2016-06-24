@@ -149,6 +149,7 @@ There are also macros for blocks of text that have been inserted, deleted or ref
 1-2 pages TLDR.
 }
 
+\on{Here I picked just one of the pledges of each group of five. Otherwise 18 pledges will be too many for the TLDR.}
 
 % ----------
 \paragraph{Citation \& Reviewing}
@@ -169,6 +170,9 @@ There are also macros for blocks of text that have been inserted, deleted or ref
 \paragraph{Making intellectual content visible}
 \begin{itemize}
 \item I will publish the intellectual contributions of my research software.
+
+\on{not clear at all what are "intellectual contributions"}
+
 %\item I will distinguish the intellectual contribution of my software from its service contribution.
 %\item I will invite developers of software that enables research to be co-authors on papers about that research.
 %\item I will publish how I organize and run my software projects.
@@ -178,6 +182,9 @@ There are also macros for blocks of text that have been inserted, deleted or ref
 \paragraph{Software Projects}
 \begin{itemize}
 \item I will develop software in the open from the start, whenever possible.
+
+\on{kinda complicated. howzabout "i will choose an open source license" blah blah blah}
+
 %\item I will acknowledge that reading and understanding source code is a legitimate part of the academic discussion.
 %\item I will match proposed software engineering practices to the actual needs and resources of the project.
 %\item I will help scientists improve the quality of their software without passing judgment.
@@ -188,6 +195,8 @@ There are also macros for blocks of text that have been inserted, deleted or ref
 \paragraph{Sustainability}
 \begin{itemize}
 \item I will contribute to sustaining software I use and rely on. 
+
+\on{"sustaining" is confusing}
 %\item I will package, release and archive versions of my software.
 %\item I will make explicit how to cite my software.
 %\item I will consider and document the sustainability of my research software as thoroughly as its function.
@@ -281,17 +290,24 @@ These results will form a starting point for disseminating the lessons learned a
 \paragraph{Making intellectual content visible}
 \begin{itemize}
 \item I will publish the intellectual contributions of my research software.
+\on{"intellectual contributions" is kinda "meta"}
 \item I will distinguish the intellectual contribution of my software from its service contribution.
-\item I will invite developers of software that enables research to be co-authors on papers about that research.
+\on{whoah, daddy!}
+\item I will invite developers of software that enables research to be co-authors on papers\del{ about that research}.
+\on{just delete "about that research."?}
 \item I will publish how I organize and run my software projects.
+\on{unclear. do we mean "process"? tools?}
 \end{itemize}
 
 % ----------
 \paragraph{Software Projects}
 \begin{itemize}
 \item I will develop software in the open from the start, whenever possible.
-\item I will acknowledge that reading and understanding source code is a legitimate part of the academic discussion.
+\on{Why not simply, "I will develop open source software, whenever possible"}
+\item I will acknowledge that reading and understanding source code is a legitimate part of the academic \chg{discussion}{discourse}.
+\on{a bit convoluted?}
 \item I will match proposed software engineering practices to the actual needs and resources of the project.
+\on{should we explicitly say "the people" instead of just "the project"?}
 \item I will help scientists improve the quality of their software without passing judgment.
 \item I will document my academic software, including usage instructions, and input and output examples.
 \end{itemize}
@@ -300,9 +316,13 @@ These results will form a starting point for disseminating the lessons learned a
 \paragraph{Sustainability}
 \begin{itemize}
 \item I will contribute to sustaining software I use and rely on. 
+\jv{"I will contribute to the open software projects that I use and rely on"}
 \item I will package, release and archive versions of my software.
+\jv{this needs semantic versioning! put this in the pledge or the discussion?}
 \item I will make explicit how to cite my software.
 \item I will consider and document the sustainability of my research software as thoroughly as its function.
+\on{somewhat mysterious. should be more precise}
+\jv{note the distinction between "sustainable" and "maintainable". A piece of software could be very clean and maintainable, but there might not be the processes or manpower available to sustain it.}
 \end{itemize}
 
 
@@ -1046,10 +1066,9 @@ research on software code manifesto?
 
 
 % ==========================================================
-%\section*{Acknowledgements}
-%
-%We thank John Doe and Jane Doe for their valuable contributions.
+\section*{Acknowledgements}
 
+We thank Tobias Rawald (GFZ Potsdam) for his contributions to the phrasing of the pledges.
 
 % ==========================================================
 %\bibliography{dagman-sample} % use bibtex or thebibliography-environment (as below)
