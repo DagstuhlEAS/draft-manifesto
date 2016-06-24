@@ -125,10 +125,8 @@
 %}
 %\license
 
-\todo{\\
-- TLDR\\
-- Pledges\\
-1-2 pages
+\todo{
+1-2 pages TLDR.
 }
 
 
@@ -340,18 +338,80 @@ These results will form a starting point for disseminating the lessons learned a
 \section{Future Research Directions}
 
 
-% optiona: appendix
-\iffalse
-\begin{appendix}
 % ==================================================
+\begin{appendix}
 \section{Related Material}
 
+2. Pointers to, and commentary on, existing manifestos
+The open science and research software communities have been very active in creating manifestos in the style of calls to action. In this section, we will pull these together and provide some commentary on them, based on our discussions this week.
+
+Some such manifestos have calls for improved software and bibliography metadata for persistent citation of software. These include both the FAIR guiding principles and the Force11 Software Citation Principles and the Science Code Manifesto \cite{wilkinson_fair_2016,arfon_m._smith_software_2016,nick_barnes_science_2013}.
+
+Other topics addressed by such manifestos include emphasis on access to source code, which was also a topic of interest in this workshop. Manifestos that address this topic include the Science Code Manifesto, the Karlskrona Manifesto for Sustainability Design, . 
+
+Emphasis on grass-roots support and institutional change toward visibility of the research contributions of software and software engineers are also addressed by many of these manifestors. A domain-specific manifesto, Astronomical Software Wants To Be Free: A Manifesto, is a key example of a call to arms for that community to value the software underlying their science \cite{weiner_astronomical_2009}. Broader calls for this community action are included in the  UK RSE objectives and the Science Code Manifesto.
+
+Many are more focused on the practice of reproducible software development for research. These inclue the Open Science Peer Review Oath, the Reproducibility PI Manifesto, the GeoScience Paper of the Future Initiative, and the FAIR principles. 
+
+
+\paragraph{Science Code Manifesto}
+\url{http://sciencecodemanifesto.org/}\cite{nick_barnes_science_2013}
+Focuses on ``source code written to specifically process data for a published paper.''
+Therefore, may only cover a portion of the types of software of interest (e.g. from the wording it appears that software that produces scientific data may not be included here).
+It does cover Code, Copyright, Citation, Credit, and Curation.
+The principles do not seem to be in conflict with our discussions this week
+
+\paragraph{Force 11 Software Citation principles}
+draft at \url{https://www.force11.org/software-citation-principles}
+\cite{arfon_m._smith_software_2016}
+The citation principles emphasize persistence and clarity.
+
+\paragraph{Open Access Pledge}
+\url{http://www.openaccesspledge.com/}
+\cite{alex_holcombe_open_2011}
+Focuses on promising to publish software and papers in open access venues.
+Also notes an emphasis on contributing more.
+
+\paragraph{Open Science Peer Review Oath}
+\url{http://f1000research.com/articles/3-271/v2}
+Focuses on leveraging one's power as a reviewer to demand open software access, reproducible practices, and transparent review ideals.
+
+\paragraph{Karlskrona Manifesto for Sustainability Design}
+\url{http://sustainabilitydesign.org/}
+\cite{becker_karlskrona_2014}
+Sustainable design in this context includes a broad definition of sustainability. In the technical sense, this is along the lines of WSSSPE, but it goes well beyond, including the environmental and social interpretations of sustainability.
+
+\paragraph{Astronomical Software Wants To Be Free: A Manifesto}
+\url{http://arxiv.org/abs/0903.3971}
+\cite{weiner_astronomical_2009}
+This one emphasized various principles that would improve the visibility and esteem of software within astronomy. It emphasizes structural incentives and adoption of values which recognize this. 
+
+\paragraph{UK RSE}
+About RSE: \url{http://www.rse.ac.uk/who.html}
+\cite{rse_conference_2016_what_2016}
+Objectives of UKRSE: \url{http://www.rse.ac.uk/objectives.html}
+This emphasizes the raising of awareness of the role of Research Software Engineers through communication and support of institutional incentives.
+
+\paragraph{Reproducibility manifesto}
+\url{http://lorenabarba.com/gallery/reproducibility-pi-manifesto/}
+\cite{barba_reproducibility_2012}
+This includes terms to make software reusable by others. Focused on reproducibility, leaving sustainability of software out of the question.
+
+\paragraph{The GeoScience paper of the future initiative}
+\url{http://www.ontosoft.org/gpf/what-is-a-gpf}
+\cite{onto_soft_what_2016}
+Has a set of requirements for software to be included in a paper: ``with documentation, a license for reuse, and a unique and citable persistent identifier''. Differences with the scope of our seminar: it involves also data and its provenance, focusing more on the paper itself rather than the software.
+
+\paragraph{FAIR principles}
+\url{http://www.nature.com/articles/sdata201618}
+\cite{wilkinson_fair_2016}
+This includes focus on research data. The goal is to make them findable, accessible, interoperable and reusable. Can we apply these principles to software too?
+
 \end{appendix}
-\fi
 
 % ==================================================
-\on{Since everyone is an author, do we need this list?}
 \begin{participants}
+\on{Since everyone is an author, do we need this list?}\\
 \participant Alice Allen\\ University of Maryland -- College Park
 \participant Cecilia Aragon\\ University of Washington -- Seattle
 \participant Christoph Becker\\ University of Toronto
@@ -380,21 +440,14 @@ These results will form a starting point for disseminating the lessons learned a
 \end{participants}
 
 
+% ==========================================================
 %\section*{Acknowledgements}
 %
 %We thank John Doe and Jane Doe for their valuable contributions.
 
 
+% ==========================================================
 %\bibliography{dagman-sample} % use bibtex or thebibliography-environment (as below)
-
-\nocite{arfon_m._smith_software_2016}
-
-
 \bibliography{eas}
-%\bibliographystyle{plain}
-
-%\begin{thebibliography}{50}
-%\bibitem{Simpson} Homer J. Simpson. \textsl{Mmmmm...donuts}. Evergreen Terrace Printing Co., Springfield, Somewhere, USA, 1998
-%\end{thebibliography}
 
 \end{document}
