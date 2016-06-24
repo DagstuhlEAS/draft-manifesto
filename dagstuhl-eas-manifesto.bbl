@@ -1,7 +1,9 @@
 \begin{thebibliography}{1}
 
-\bibitem{FORCE11}
-Force 11 software citation principles.
-\newblock https://www.force11.org/software-citation-principles.
+\bibitem{arfon_m._smith_software_2016}
+{Arfon M. Smith}, {Kyle E. Niemeyer}, {Daniel S. Katz}, and {FORCE11 Software
+  Citation Working Group}.
+\newblock Software {Citation} {Principles}.
+\newblock {\em FORCE11}, Draft, 2016.
 
 \end{thebibliography}
