@@ -1,6 +1,7 @@
 \let \@secpagenumber \relax 
 \select@language {UKenglish}
-\contentsline {section}{Executive Summary\relax }{2}{section*.1}
+\contentsline {section}{About the edit macros\relax }{2}{section*.1}
+\contentsline {section}{Executive Summary\relax }{2}{section*.2}
 \let \@secpagenumber \@undefined 
 \let \@secpagenumber \relax 
 \contentsline {section}{Introduction}{4}{section.1}
@@ -19,8 +20,8 @@
 \contentsline {subsection}{Baseline practices and product quality as well as their expected changes}{20}{subsection.3.6}
 \contentsline {subsection}{Scientist Centric and Model Centric Scientific Software Engineering}{20}{subsection.3.7}
 \contentsline {subsection}{What is the invisible work of engineering academic software?}{20}{subsection.3.8}
-\contentsline {subsection}{Metaphor, language, and contextuality}{21}{subsection.3.9}
-\contentsline {subsection}{Software as communication}{21}{subsection.3.10}
+\contentsline {subsection}{Metaphor, language, and contextuality}{20}{subsection.3.9}
+\contentsline {subsection}{Software as communication}{20}{subsection.3.10}
 \contentsline {subsection}{What?s different about research software outside the sciences - e.g. in humanities?}{21}{subsection.3.11}
 \contentsline {subsection}{Analysis of scientific software ecosystem metadata}{21}{subsection.3.12}
 \contentsline {subsection}{Techniques/metrics for evaluating the likely success and impact of proposed / nascent academic software projects}{21}{subsection.3.13}
