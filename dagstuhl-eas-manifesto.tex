@@ -4,8 +4,17 @@
   %for british hyphenation rules use option "UKenglish", for american hyphenation rules use option "USenglish"
   %for section-numbered lemmas etc., use "numberwithinsect"
 
+\usepackage{xspace}
 \usepackage{microtype}%if unwanted, comment out or use option "draft"
 \input{edit-macros.tex}
+% ============================================================
+\renewcommand{\paragraph}[1]{{\bf #1}\xspace}
+% ============================================================
+\newcommand{\ie}{\emph{i.e.},\xspace}
+\newcommand{\eg}{\emph{e.g.},\xspace}
+\newcommand{\etal}{\emph{et al.}\xspace}
+\newcommand{\etc}{\emph{etc.}\xspace}
+% ==========================================================
 
 \bibliographystyle{plain}%the recommended bibstyle
 
@@ -122,13 +131,66 @@
 1-2 pages
 }
 
+
+
+
 % ==================================================
 \tableofcontents
 
 % ==================================================
 \section{Introduction}
 
-\todo{recycle proposal text}
+\todo{EDIT THIS DOWN (from the proposal)}
+
+We propose a perspective seminar on the future of academic software, specially the process of engineering academic software and the resulting software quality. The current reality is that software is used both as academic research results and as part of academic research methods. With the advent of open-source software, artifact evaluation committees of conferences, and journals which include source code and running systems as part of the published artifacts, we foresee that software will increasingly be part of the academic process. The quality of this software must be accounted for, both a priori and a posteriori.
+
+In this context it is highly relevant that (a) we distribute software engineering knowledge and expertise across communities and (b) we identify  strengths, weaknesses, risks and opportunities of academic software engineering. Our goal is to produce a roadmap towards future professional software engineering for software-based research instruments and other software produced and used in an academic context.
+
+
+\subsection*{Topics of the Seminar}
+
+\paragraph{Academia is software driven.} As software is becoming a pervasive technology for automating and innovating every aspect of the human condition (work, play, love and war), it is also embedded firmly in the academic world. On the one hand, in computer science and software engineering research in particular we see experimental software and toolkits emerge continuously, either as part of the \emph{output} of research effort, or as part of the \emph{research method}. On the other hand, in general it may be that software is used even more actively in the other fields of research such as mathematics, biology, particle physics, astronomy, medicine, law. Again, we can distinguish the software part of the output (\ie development of innovative production techniques) from software which is part of research methods. 
+
+\paragraph{The software $\times$ open-data flywheel effect} emphasises the urgency of a focus on quality in academic software engineering. There is an explosion of available open-data online which is accessed and analysed through the creation of new software ---generating more data to analyse. Setting aside the quality of the data itself (which is a major topic but out-of-scope for the current seminar), we focus on the impact of the quality of the software which processes it. We scrutinise any software which acquires, cleanses, stores, annotates, transforms, filters, generates (etc.) research data.
+
+\paragraph{The perspective of this perspective seminar is that of the research team developing and/or using academic software.} As software is becoming integral to our processes, the tools we use and the output we produce, this perspective provides a starting point for a discussion both both timely and pressing:
+
+\begin{itemize}
+\item What is academic software? How is it different from other software? What are its most pressing dimensions of quality? What are the major success factors? What are common pitfalls?
+\item Is the software that drives our research methods correct? Are the inputs and outputs sufficiently specified to be able to interpret the difference between incorrect and correct? How to verify (test or prove) our claims?
+\item Is the software we use and produce in an academic context sustainable?\footnote{The opposite of sustainable software, often jokingly referred as ``PhD-ware'', is a serious threat to the rigor of the academic process.} This includes the matters of (1) software maintenance and (2) software evolution. Can we be assured to be able reproduce previous research methods in the future under arbitrary changes to the technological contexts (machines, operating systems, programming languages frameworks)? Are we able to incrementally adapt research software to emerging opportunities at the same time, without loss of reproducibility and without incurring prohibitive cost?
+\item Is the software process we use fit for the quality we expect? How to optimize it in the unique academic context without losing quality? What tools and processes exist to help with this balance? What investments are necessary to find it?
+\item How to secure academic software quality? How to monitor, steer, report on and review academic software quality? How to manage and secure trust between academic research teams considering software developed for output and or research methods?
+\item How to balance domain knowledge and expertise with software engineering knowledge and expertise in an academic research team? How to manage heterogeneous research teams where both domains benefit from each other?   
+\item What are motivators for investment and change for research teams, with respect to the above, considering the highly competitive and already complex environment they operate in? Is it clear what is required in terms of long term funding, education and infra-structure to make the goals of academic software feasible?
+\end{itemize}
+
+\subsection*{Goals of the Seminar}
+
+\paragraph{Awareness, Synergy and Strategic Planning}
+
+Although each research domain may be unique, there do exist common issues across the domains with respect to software. For example, there exists the common phenomenon of ``PhD-ware'', where software is developed, used, and thrown away within the lifecycle of PhD research projects rather than being reused and maintained for future projects. Another example is the widespread use of flexible scripting languages in research labs while state-of-the-art quality assessment and other supporting tools work best on statically typed and compiled languages.
+
+Based on anecdotal evidence, we conjecture that many aspects of software engineering are the same or comparable between different research domains and that we can learn from each other. The seminar will provide an answer to the question whether this conjecture holds.
+
+We believe that the software engineering research community is well-positioned to provide input for the other communities on the aspect of research software. At the same time, the software engineering community will learn from the other communities who have perhaps more experience in validating experimental research methods or calibrating research instruments. 
+
+The goals of the seminar are to plan how to widen and deepen the impact of software engineering knowledge in research labs across the globe and to prioritize pressing open questions for the software engineering community with respect to research software.
+
+\paragraph{Deliverables: Impact on the Research Community}
+
+This seminar would be an element of an ongoing global effort to increase awareness and professional attitudes and skills in software engineering in research labs. We point to the Software Carpentry Foundation (SCF, \url{https://software-carpentry.org/}) and the Software Sustainability Institute (SSI, \url{http://www.software.ac.uk/}) of which key members contribute to the seminar.
+
+The current seminar will be geared towards knowledge exchange and harvesting the communication between the participants in the following (short) draft documents:
+\begin{itemize}
+\item Ontology --- defines and explains briefly what we are talking about, how academic software relates to software engineering in general. It takes the Software Engineering Body of Knowledge (SWEBOK)\footnotemark \footnotetext{\url{https://www.computer.org/web/swebok}} and ISO/IEC 25010:\-2011\footnotemark~ on Software Quality as starting points; \footnotetext{\url{http://en.wikipedia.org/wiki/ISO/IEC_9126}}
+\item SWOT analysis --- a summary of strengths, weaknesses, opportunities and risks in academic software engineering. Uses the jargon identified in the previous and documents our ongoing discussion;
+\item Questionnaire --- using the previous results, we will design a questionnaire to establish the state-of-the-art in academic software engineering from the global community;
+\item Manifesto --- we summarize the ontology and the SWOT analysis into a document of proposed steps towards improving the state-of-the-art in academic software engineering globally.
+\end{itemize} 
+
+These results will form a starting point for disseminating the lessons learned and best practices via different funding agencies at the national and international level, and also (informal) publications (like ERCIM News, ACM and IEEE magazines) and the respective magazines in the specific research domains. Both the SSI and the SCF will play a vital role in disseminating the results of the current seminar. We also intend to reach out to national interest groups such as the Netherlands SIG (Special Interest Group Software Engineering)
+
 
 % ==================================================
 \section{Responsible Academic Software Development}

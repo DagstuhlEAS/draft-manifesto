@@ -4,8 +4,8 @@
 \let \@secpagenumber \@undefined 
 \let \@secpagenumber \relax 
 \contentsline {section}{Introduction}{4}{section.1}
-\contentsline {section}{Responsible Academic Software Development}{4}{section.2}
-\contentsline {section}{Future Research Directions}{4}{section.3}
+\contentsline {section}{Responsible Academic Software Development}{6}{section.2}
+\contentsline {section}{Future Research Directions}{6}{section.3}
 \let \@secpagenumber \relax 
-\contentsline {section}{Participants}{5}{section.4}
-\contentsline {section}{References}{5}{section.4}
+\contentsline {section}{Participants}{7}{section.4}
+\contentsline {section}{References}{7}{section.4}
