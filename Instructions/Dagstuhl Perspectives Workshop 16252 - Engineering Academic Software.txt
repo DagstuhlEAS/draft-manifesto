@@ -1,0 +1,86 @@
+From: Roswitha Bardohl <Roswitha.Bardohl@dagstuhl.de>
+Subject: Dagstuhl Perspectives Workshop 16252 - Engineering Academic Software
+Date: 22 June 2016 at 16:03:56 GMT+2
+To: Carole Goble <carole.goble@manchester.ac.uk>, James Howison <jhowison@ischool.utexas.edu>, Claude Kirchner <claude.kirchner@inria.fr>, "Oscar M. Nierstrasz" <oscar@inf.unibe.ch>, "Jurgen J. Vinju" <Jurgen.Vinju@cwi.nl>
+Cc: Jutka Gasiorowski <jutka.gasiorowski@dagstuhl.de>
+
+Dear Organizers of Dagstuhl Perspectives Workshop 16252,
+
+It was a pleasure for me meeting you in person! Probably, we'll meet once again while I am in Dagstuhl tomorrow.
+
+
+As announced during lunch on Monday, there are several things I'd like to point out in detail.
+
+
+Dagstuhl Report (http://www.dagstuhl.de/en/publications/dagstuhl-reports/):
+================
+My colleague Jutka Gasiorowski is responsible for the Dagstuhl Report. Since she is on vacation, my colleague Marc Herbstritt sent the information on the Dagstuhl Report. You only have to cut the part in the bottom and send it to all participants (seminar-16252@dagstuhl.de). 
+
+The Dagstuhl Report is more or less a collection of abstracts enriched with an executive summary written by the organizers, a group picture, the names of participants, etc. In addition to the talk abstracts, you can add some notes wrt the different working groups and their results. In the executive summary you could mention some open questions. These should support you if you come up with a follow-up proposal for one or more Dagstuhl Seminar(s). 
+
+You can use the (English written) summary as basis for the Dagstuhl Manifesto and the publication in the German journal "Informatik Spektrum" (Springer) - see below.
+
+
+Dagstuhl Manifesto:
+===================
+You can read at http://www.dagstuhl.de/en/program/dagstuhl-perspectives/ (and from your motivation text):
+
+" ... Such a manifesto should include research directions that are put into a larger context, like its relevance for society and economy, applications, and relations to other fields. Its audience goes beyond the inner circle of experts and should include policy makers.
+Dagstuhl's Scientific Directorate acts as editoral board for Dagstuhl Manifestos. Once a manifesto is accepted, it will be published in the series Dagstuhl Manifestos. Furthermore, manifestos are passed to national and European funding agencies. ..."
+
+Please have a look at the boxes of the right-hand-side of the webpage http://www.dagstuhl.de/en/publications/dagstuhl-manifestos/ where we provide a sample manifesto and in addition, a LaTeX-template and guidelines for the authors/editors.
+
+A manifesto has about 15 to 25 pages. It summaries the status quo of the field and shows visions for future research directions. 
+I don't know how much time you need to finish the Dagstuhl Manifesto, but I'd like to ask you to send it latest in the Middle of December, 2016. Is this feasible? - Please inform me if you cannot met the deadline.
+
+I'd appreciate, if you support me with the distribution of the manifesto once it is accepted for publication by our Scientific Directorate. What I need are contact details (at least names and the institution) of important persons from funding/research agencies and a brief, appealing text for the letters our Scientific Director will sign when we send the manifesto. 
+
+I assume that you and your participants know some important persons from funding agencies which could/should be interested in the outcome of your workshop. We would be glad if some of your achievements are taken into account when setting up new research programs!
+
+Please note, that we would like to send cca. 20 printed and binded Dagstuhl Manifestos and unrestricted many manifestos via mail.
+
+
+Publication in the German journal "Informatik Spektrum":
+===================
+Springer publishes six issues per year; I've reserved a slot in issue 6/2016 for you. The official deadline is September 2016. In order to have the possibility for last corrections, I'd like to get it some time before the official deadline, i.e., 
+	Friday, September 16, 2016.
+
+The publication is a summary of 2 to 4 pages written in English. Springer asks for a common Word document. 
+Please find enclosed a published summary as outcome from Dagstuhl Perspectives Workshop http://www.dagstuhl.de/14112.
+
+Please inform me asap if you are not interested in this publication or if you think that you cannot meet the deadline.
+
+
+Results:
+========
+If there are more results as outcome from the workshop, like joint publications (please refer to the workshop), an accepted project proposal, some personal success stories of single particpants, etc. please inform us. We are evaluated every seven years by the Leibniz Association and are always looking for success stories. 
+
+
+Next meeting of our Scientific Advisory Board (SAB): Friday, March 10, 2017
+===================
+Probably, one organizer will be invited to present the workshop results to the members of our SAB (a half-hour presentation). Although I don't know the program of the next meeting, I'd like to ask you for saving the date March 10, 2017. I'll inform you latest in January 2017.
+@Claude, do you want to say something about the workshop during the meeting?
+
+
+Hopefully, I haven't forget anything to mention.
+Please feel free and don't hesitate to contact me for any question or comment! 
+
+
+With kind regards,
+Roswitha
+
+--
+Dr. Roswitha Bardohl
+Scientific Staff
+Schloss Dagstuhl - Leibniz Center for Informatics
+Saarland University
+Campus E 1.1
+D-66123 Saarbruecken
+
+Fon:  +49 681 302-3847
+Fax:  +49 681 302-4397
+http://www.dagstuhl.de
+
+
+
+
