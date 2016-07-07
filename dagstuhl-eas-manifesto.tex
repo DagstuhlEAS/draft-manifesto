@@ -10,6 +10,7 @@
 \newcommand{\onhere}{\yellowbox{$\Rightarrow$ OSCAR: CONTINUE HERE $\Leftarrow$}}
 % ============================================================
 \renewcommand{\paragraph}[1]{\subsubsection*{#1}\xspace}
+\newcommand{\manifesto}[1]{{\bf #1}\xspace}
 % ============================================================
 \newcommand{\ie}{\emph{i.e.},\xspace}
 \newcommand{\eg}{\emph{e.g.},\xspace}
@@ -215,7 +216,7 @@ Fill this in as the rest starts to stabilize.
 \item I will contribute to sustaining software I use and rely on. 
 
 \on{"sustaining" is confusing and hard to parse. (Are we sustaining the software, or is it the software that is doing the sustaining?)}
-\katznote{we want to sustain the software - if we need to make changes to make it run, we will push those changes back for others to use (incremental updating).  If we can fix the documentation to clarify something, we will.  Etc.}
+\katznote{we want to sustain the software --- if we need to make changes to make it run, we will push those changes back for others to use (incremental updating).  If we can fix the documentation to clarify something, we will.  Etc.}
 %\item I will package, release and archive versions of my software.
 %\item I will make explicit how to cite my software.
 %\item I will consider and document the sustainability of my research software as thoroughly as its function.
@@ -769,14 +770,16 @@ A framework for understanding different kinds of software and appropriate softwa
 
 The research areas outlined below are concerned with gaining a deeper understanding of both the process and the output of research software engineering activities. Because both tools and practices change so rapidly, and because such a wide diversity of these exists across different scientific disciplines and contexts, the overarching challenge is to understand how findings about specific projects or groups relate to broader trends over time. The research agenda includes developing ways to measure meaningful aspects of both practice and output of scientific programming and questions regarding design and development of tools to support aspects of relevant activities.
 
+\on{Not all of these directions are described at the same level of detail. Some need to be expanded, and other probably deleted (or merged).}
+
 % --------------------------------------------------
 \subsection{Quantifying the state of scientific software availability.}
 
-Existing work has included literature surveys of particular publication venues [\eg TODO citations] which aim to provide some measurement of how much software is available. However, there is limited consensus on what constitutes code that is expected to be released, and the level of scrutiny with which to evaluate a particular publication. These limitations make comparisons across venues - let alone fields or disciplines - difficult. Such comparisons constitute a component of understanding the change which we try to bring about with improved tools and advocacy programs. 
+Existing work has included literature surveys of particular publication venues \todo{need references} that aim to provide some measure of how much software is available. However, there is limited consensus on what constitutes code that is expected to be released, and the level of scrutiny with which to evaluate a particular publication. These limitations make comparisons across venues difficult, let alone fields or disciplines. Such comparisons constitute a component of understanding the change which we try to bring about with improved tools and advocacy programs. 
 
-Specific questions:
+Specific questions to be addressed:
 \begin{itemize}
-\item Map out which stakeholders (institutional, funding, \etc) are invested in this information, and how to support the systematic gathering of relevant data. Map out existing work that has done these kinds of surveys and collate the various means to measure code availability and create a consistent recommended primer for conducting this survey, in order to enable a broader scope of study and comparability.
+\item Which stakeholders (institutional, funding, \etc) are invested in this information, and how to support the systematic gathering of relevant data? Map out existing work that has done these kinds of surveys and collate the various means to measure code availability and create a consistent recommended primer for conducting this survey, in order to enable a broader scope of study and comparability.
 \item In published scientific literature, how are rates of available, runnable, and hidden software changing over time?
 \item How can code duplication be identified? What are reasons for duplicated code, and what proportion of these are the result of breakdown in code discovery (rather than a reason arising from other needs)?
 \end{itemize}
@@ -784,32 +787,31 @@ Specific questions:
 % --------------------------------------------------
 \subsection{Sustainability of software experimentation}
 
-Reproducibility of scientific experiments with major computational components require set-up environments that will, in principle, allow experiments to be redone in 2, 10, 100 and perhaps even 1000 years. We envision a future in which programs should be rerunnable and feel as persistent as email seems today. A journal like ipol allows for example to publish a paper as well as the runnable program, at least on the current machine available in 2016. Jupyter Notebooks allow the bundling of all necessary components and dependencies. To extend the persistence of software execution across environments and tools opens new research tracks in the rapidly changing hardware and software environments that we currently living with. This requires to explore in particular the following specific questions. 
+Reproducibility of scientific experiments with major computational components requires prepared environments that will, in principle, allow experiments to be redone in 2, 10, 100 and perhaps even 1000 years. We envision a future in which programs should be rerunnable and feel as persistent as email seems today. A journal like IPOL\footnote{\url{http://www.ipol.im}}, for example, allows authors to publish a paper together with a runnable program, at least on the current machine available in 2016. Jupyter Notebook\footnote{\url{http://jupyter.org}} allows all necessary components and dependencies to be bundled. To extend the persistence of software execution across environments and tools opens new research tracks in the rapidly changing hardware and software environments that we currently live with
+
+The following specific questions need to be addressed:
 
 \begin{itemize}
-\item What we would like to have for a research environment for reproducibility, including  software and data, in 10 years from now? 
-\item How to design and implement virtual machine for forever-sustainable executable environments? 
-\item How to deal with legacy of softwares on the long term, in particular
-
-\begin{itemize}
-\item De-optimization, porting, refactoring of academic software
-\item Translation of legacy data formats?
+\item What we would like to have as a research environment for reproducibility, including  software and data, 10 years from now? 
+\item How to design and implement a virtual machine for forever-sustainable executable environments? 
+\item How to deal with software legacy in the long term, in particular
+    \begin{itemize}
+    \item De-optimization, porting, refactoring of academic software
+    \item Translation of legacy data formats?
+    \end{itemize}
 \end{itemize}
 
-\item Related work
-
-\begin{itemize}
-\item Executable papers, Peter Sloot (Elsevier?s executable paper competition)
-\item SHARE [2.0] Pieter van Gorp
-\end{itemize}
-
-\end{itemize}
+\todo{Refer to related work:
+Executable papers, Peter Sloot (Elsevier?s executable paper competition),
+SHARE [2.0] Pieter van Gorp}
 
 
 % --------------------------------------------------
 \subsection{Facilitating software discovery within and across disciplines}
 
-A major challenge of RSE is the diversity of programmer skill, project scale, level of concern and scale of action. Understanding the metadata ecosystem is another major research focus, but what other approaches, aside from (or complementary to) standards can support scaling discoverability? Other questions on this agenda are concerned with measuring the amount and cost of hidden software, but we already recognize it as a pain point that may be addressed with design, tooling, and workshops.
+\todo{Somewhat telegraphic. To be expanded.}
+
+A major challenge of RSE is the \emph{diversity} of programmer skill, project scale, level of concern and scale of action. Understanding the metadata ecosystem is another major research focus, but what other approaches, aside from (or complementary to) standards can support scaling of discoverability? Other questions on this agenda are concerned with measuring the amount and cost of hidden software, but we already recognize it as a pain point that may be addressed with design, tooling, and workshops.
 
 
 \begin{itemize}
@@ -827,7 +829,7 @@ Many common tools that embody SE best practices are not written for scientists. 
 \item How are different tools augmenting programmer cognition?
 \item Develop typologies of software and corresponding design requirements. For example:
 \item Support of ``what-if'' scenarios
-\item Multi-scale interaction - capability to ``zoom'' in and out of levels of abstraction
+\item Multi-scale interaction --- capability to ``zoom'' in and out of levels of abstraction
 \item Avoid independent co-evolution
 \end{itemize}
 
@@ -893,14 +895,16 @@ Claims of cost of hidden software or infrastructure maintenance remain (often) a
 
 
 % --------------------------------------------------
-\subsection{What?s different about research software outside the sciences - e.g. in humanities?}
+\subsection{What's different about research software outside the sciences --- e.g. in humanities?}
 
 (a fuzzy question at this point)
 
 % --------------------------------------------------
 \subsection{Analysis of scientific software ecosystem metadata}
 
-With better metadata about projects we can pursue systems that provide insight into the scientific software ecosystem. Example efforts currently include Depsy (Piowawr and Priem) and the Scientific Software Network Map (Bogart, Howison, and Herbsleb). These take data on software, authors, mentions in publications, and software projects and compose them into maps that provide information on direct and indirect impact, as well as data often hidden from developers (such as which projects are used with others by end users).
+With better metadata about projects we can pursue systems that provide insight into the scientific software ecosystem.
+Example efforts currently include Depsy\footnote{\url{http://depsy.org}} \todo{reference (Piwowar and Priem) --- can't find this. Is it a paper?} and the Scientific Software Network Map\footnote{\url{http://scisoft-net-map.isri.cmu.edu}} \todo{(Bogart, Howison, and Herbsleb) --- is this a paper?}.
+These take data on software, authors, mentions in publications, and software projects and compose them into maps that provide information on direct and indirect impact, as well as data often hidden from developers (such as which projects are used with others by end users).
 
 Specific questions in the area of ecosystem analysis and metadata are:
 
@@ -921,20 +925,25 @@ Specific questions in the area of ecosystem analysis and metadata are:
 
 For the vision of software citation to be realized, authors need to be able to store a metadata record for software with the needed fields, have the toolchain pass these fields through, and have style files produce output that includes them. To achieve this, interfaces for metadata storage will need to be upgraded to meet these needs and improved style files will need to be pushed into the hands of users.
 
-There are three broadly used bibliographic toolchains: bibtex, citation style language (Zotero | Papers | Mendeley ? citeproc ? Word | pandoc | Pages), and Endnote. Note, though, that there are many other systems:
-\url{https://en.wikipedia.org/wiki/Comparison_of_reference_management_software}
+There are three broadly used bibliographic toolchains:
+\begin{enumerate}
+\item bibtex, 
+\item citation style language (Zotero | Papers | Mendeley \ra citeproc \ra Word | pandoc | Pages),  and \item Endnote.
+\end{enumerate}
+Note, though, that there are many other systems.%
+\footnote{\url{https://en.wikipedia.org/wiki/Comparison_of_reference_management_software}}
 
 In the bibtex world, this means standardizing a type definition (\eg @software, although there may be existing partial standards) and have bibtex interfaces (such as bibdesk) handle it properly. The modern implementations of bibtex pass through unknown types, so that is fine. Then the bst files need to know what to do when receiving an @software record.
 
-In the Citation Style Language (csl) world, used by Zotero, Mendeley, and Papers, we need a csl type that is well support by the user interfaces, the citeproc implementations to pass it through to the csl files (\eg https://github.com/citation-style-language/styles) and the csl files to know what to do with it.
+In the Citation Style Language (csl) world, used by Zotero, Mendeley, and Papers, we need a csl type that is well support by the user interfaces, the citeproc implementations to pass it through to the csl files\footnote{\eg \url{https://github.com/citation-style-language/styles}} and the csl files to know what to do with it.
 
-In the Endnote world Endnote and it?s proprietary style system makes some things difficult to change from the outside. Endnote has to have an appropriate type, and the style files have to process it.  Some information on this is available here: http://endnote.com/sites/en/files/m/pdf/en-x7-win-editing-reference-types-styles.pdf
+In the Endnote world Endnote and its proprietary style system makes some things difficult to change from the outside. Endnote has to have an appropriate type, and the style files have to process it.\footnote{Some information on this is available here:\\ \url{http://endnote.com/sites/en/files/m/pdf/en-x7-win-editing-reference-types-styles.pdf}}
 
 We can define a set of example software citations and produce metadata records for them. We can then use a continuous integration tool to run each of those through each style in each bibliographic tool chain. We can then compare the outputs to the software citation principles and say whether the style file produces valid software citations. By automating that comparison we can define a test.
 
 In the csl world style file distribution and editing is centralized; by changing the style files in the github repository they will eventually be distributed to users via their software client.
 
-In the bibtex world, however, bst are not centralized but distributed in a heterogenous manner (partly through latex distributions, partly through publisher websites). Often the closest thing to a canonical distribution point is the publishers sites, so we would have to convince each publisher to take an edited bst file.  One approach to drive this change could be to regularly tweet the failing test to the publisher and provide a link to a file that does not fail the tests.
+In the bibtex world, however, bst files are not centralized but distributed in a heterogenous manner (partly through latex distributions, partly through publisher websites). Often the closest thing to a canonical distribution point is the publishers' sites, so we would have to convince each publisher to take an edited bst file.  One approach to drive this change could be to regularly tweet the failing test to the publisher and provide a link to a file that does not fail the tests.
 
 One additional necessary element would be tool support to make it easy to get appropriate metadata records into bibliographic software. For example, one could write web importers for Zotero that created an appropriate metadata record from the software landing page, with a generic fallback that works on repository home pages. These importers could read data from CITATION files, micro-format embedded metadata (\eg schema.org SoftwareApplication) or data composed from repository APIs.
 
@@ -946,12 +955,12 @@ One additional necessary element would be tool support to make it easy to get ap
 \begin{appendix}
 \section{Related Material}
 
-2. Pointers to, and commentary on, existing manifestos
+\subsection*{Pointers to, and commentary on, existing manifestos}
 The open science and research software communities have been very active in creating manifestos in the style of calls to action. In this section, we will pull these together and provide some commentary on them, based on our discussions this week.
 
 Some such manifestos have calls for improved software and bibliography metadata for persistent citation of software. These include both the FAIR guiding principles and the Force11 Software Citation Principles and the Science Code Manifesto \cite{wilkinson_fair_2016,arfon_m._smith_software_2016,nick_barnes_science_2013}.
 
-Other topics addressed by such manifestos include emphasis on access to source code, which was also a topic of interest in this workshop. Manifestos that address this topic include the Science Code Manifesto, the Karlskrona Manifesto for Sustainability Design, . 
+Other topics addressed by such manifestos include emphasis on access to source code, which was also a topic of interest in this workshop. Manifestos that address this topic include the Science Code Manifesto, and the Karlskrona Manifesto for Sustainability Design. 
 
 Emphasis on grass-roots support and institutional change toward visibility of the research contributions of software and software engineers are also addressed by many of these manifestors. A domain-specific manifesto, Astronomical Software Wants To Be Free: A Manifesto, is a key example of a call to arms for that community to value the software underlying their science \cite{weiner_astronomical_2009}. Broader calls for this community action are included in the  UK RSE objectives and the Science Code Manifesto.
 
@@ -959,68 +968,59 @@ Many are more focused on the practice of reproducible software development for r
 
 
 % ----------
-\paragraph{Science Code Manifesto}
-\url{http://sciencecodemanifesto.org/}\cite{nick_barnes_science_2013}
+\manifesto{Science Code Manifesto}~\cite{nick_barnes_science_2013}
+(\url{http://sciencecodemanifesto.org/})
 Focuses on ``source code written to specifically process data for a published paper.''
 Therefore, may only cover a portion of the types of software of interest (e.g. from the wording it appears that software that produces scientific data may not be included here).
 It does cover Code, Copyright, Citation, Credit, and Curation.
 The principles do not seem to be in conflict with our discussions this week
 
 % ----------
-\paragraph{Force 11 Software Citation principles}
-draft at \url{https://www.force11.org/software-citation-principles}
-\cite{arfon_m._smith_software_2016}
-The citation principles emphasize persistence and clarity.
+\manifesto{Force 11 Software Citation principles}~\cite{arfon_m._smith_software_2016}
+(draft at \url{https://www.force11.org/software-citation-principles})
+emphasize persistence and clarity.
 
 % ----------
-\paragraph{Open Access Pledge}
-\url{http://www.openaccesspledge.com/}
-\cite{alex_holcombe_open_2011}
-Focuses on promising to publish software and papers in open access venues.
+\manifesto{Open Access Pledge}~\cite{alex_holcombe_open_2011}
+(\url{http://www.openaccesspledge.com/})
+focuses on promising to publish software and papers in open access venues.
 Also notes an emphasis on contributing more.
 
 % ----------
-\paragraph{Open Science Peer Review Oath}
-\url{http://f1000research.com/articles/3-271/v2}
-Focuses on leveraging one's power as a reviewer to demand open software access, reproducible practices, and transparent review ideals.
+\manifesto{Open Science Peer Review Oath}
+(\url{http://f1000research.com/articles/3-271/v2})
+focuses on leveraging one's power as a reviewer to demand open software access, reproducible practices, and transparent review ideals.
 
 % ----------
-\paragraph{Karlskrona Manifesto for Sustainability Design}
-\url{http://sustainabilitydesign.org/}
-\cite{becker_karlskrona_2014}
-Sustainable design in this context includes a broad definition of sustainability. In the technical sense, this is along the lines of WSSSPE, but it goes well beyond, including the environmental and social interpretations of sustainability.
+\manifesto{Karlskrona Manifesto for Sustainability Design}~\cite{becker_karlskrona_2014}
+(\url{http://sustainabilitydesign.org/})
+includes a broad definition of sustainability. In the technical sense, this is along the lines of WSSSPE, but it goes well beyond, including the environmental and social interpretations of sustainability.
 
 % ----------
-\paragraph{Astronomical Software Wants To Be Free: A Manifesto}
-\url{http://arxiv.org/abs/0903.3971}
-\cite{weiner_astronomical_2009}
-This one emphasized various principles that would improve the visibility and esteem of software within astronomy. It emphasizes structural incentives and adoption of values which recognize this. 
+\manifesto{Astronomical Software Wants To Be Free: A Manifesto}~\cite{weiner_astronomical_2009}
+(\url{http://arxiv.org/abs/0903.3971})
+emphasizes various principles that would improve the visibility and esteem of software within astronomy. It emphasizes structural incentives and adoption of values which recognize this. 
 
 % ----------
-\paragraph{UK RSE}
-About RSE: \url{http://www.rse.ac.uk/who.html}
-\cite{rse_conference_2016_what_2016}
+\manifesto{UK RSE}~\cite{rse_conference_2016_what_2016}
+(\url{http://www.rse.ac.uk/who.html})
+emphasizes the raising of awareness of the role of Research Software Engineers through communication and support of institutional incentives.
 Objectives of UKRSE: \url{http://www.rse.ac.uk/objectives.html}
-This emphasizes the raising of awareness of the role of Research Software Engineers through communication and support of institutional incentives.
 
 % ----------
-\paragraph{Reproducibility manifesto}
-\url{http://lorenabarba.com/gallery/reproducibility-pi-manifesto/}
-\cite{barba_reproducibility_2012}
-This includes terms to make software reusable by others. Focused on reproducibility, leaving sustainability of software out of the question.
+\manifesto{Reproducibility manifesto}~\cite{barba_reproducibility_2012}
+(\url{http://lorenabarba.com/gallery/reproducibility-pi-manifesto/})
+includes terms to make software reusable by others. It is focused on reproducibility, leaving sustainability of software out of the question.
 
 % ----------
-\paragraph{The GeoScience paper of the future initiative}
-\url{http://www.ontosoft.org/gpf/what-is-a-gpf}
-\cite{onto_soft_what_2016}
-Has a set of requirements for software to be included in a paper: ``with documentation, a license for reuse, and a unique and citable persistent identifier''. Differences with the scope of our seminar: it involves also data and its provenance, focusing more on the paper itself rather than the software.
+\manifesto{The GeoScience paper of the future initiative}~\cite{onto_soft_what_2016}
+(\url{http://www.ontosoft.org/gpf/what-is-a-gpf})
+has a set of requirements for software to be included in a paper: ``with documentation, a license for reuse, and a unique and citable persistent identifier''. Differences with the scope of our seminar: it involves also data and its provenance, focusing more on the paper itself rather than the software.
 
 % ----------
-\paragraph{FAIR principles}
-\url{http://www.nature.com/articles/sdata201618}
-\cite{wilkinson_fair_2016}
-This includes focus on research data. The goal is to make them findable, accessible, interoperable and reusable. Can we apply these principles to software too?
-
+\manifesto{FAIR principles}~\cite{wilkinson_fair_2016}
+(\url{http://www.nature.com/articles/sdata201618})
+includes focus on research data. The goal is to make them findable, accessible, interoperable and reusable. Can we apply these principles to software too?
 
 
 % ==========================================================
@@ -1043,7 +1043,6 @@ Meta or follow-up manifesto?
 
 research on software code manifesto?
 \url{http://sciencecodemanifesto.org/}
-
 
 
 \end{appendix}

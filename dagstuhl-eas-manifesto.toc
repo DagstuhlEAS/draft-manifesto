@@ -22,11 +22,11 @@
 \contentsline {subsection}{What is the invisible work of engineering academic software?}{20}{subsection.3.8}
 \contentsline {subsection}{Metaphor, language, and contextuality}{20}{subsection.3.9}
 \contentsline {subsection}{Software as communication}{20}{subsection.3.10}
-\contentsline {subsection}{What?s different about research software outside the sciences - e.g. in humanities?}{21}{subsection.3.11}
+\contentsline {subsection}{What's different about research software outside the sciences --- e.g. in humanities?}{21}{subsection.3.11}
 \contentsline {subsection}{Analysis of scientific software ecosystem metadata}{21}{subsection.3.12}
 \contentsline {subsection}{Techniques/metrics for evaluating the likely success and impact of proposed / nascent academic software projects}{21}{subsection.3.13}
 \contentsline {subsection}{Re-tooling the bibliographic software toolchain for software citation}{21}{subsection.3.14}
 \contentsline {section}{Related Material}{22}{appendix.A}
 \let \@secpagenumber \relax 
 \contentsline {section}{Participants}{25}{appendix.B}
-\contentsline {section}{References}{25}{section*.43}
+\contentsline {section}{References}{25}{section*.34}
