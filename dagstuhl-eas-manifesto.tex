@@ -215,6 +215,7 @@ Fill this in as the rest starts to stabilize.
 \item I will contribute to sustaining software I use and rely on. 
 
 \on{"sustaining" is confusing and hard to parse. (Are we sustaining the software, or is it the software that is doing the sustaining?)}
+\katznote{we want to sustain the software - if we need to make changes to make it run, we will push those changes back for others to use (incremental updating).  If we can fix the documentation to clarify something, we will.  Etc.}
 %\item I will package, release and archive versions of my software.
 %\item I will make explicit how to cite my software.
 %\item I will consider and document the sustainability of my research software as thoroughly as its function.
@@ -244,6 +245,8 @@ As software is becoming integral to our processes, the tools we use, and the out
 % \footnote{The opposite of sustainable software, often jokingly referred as ``PhD-ware'', is a serious threat to the rigor of the academic process.}
 \ins{``Sustainability'' refers not only to the qualities of a piece of software that contribute to its maintainability, but also commitment to processes and resources that will ensure that software's life beyond the scope of a single research project.}
 \on{ok?}
+\katznote{I like sustainability defined as the capacity to endure.
+For software, sustainability means the software will continue to be available in the future, on new platforms, meeting new needs.}
 Are we certain to be able reproduce previous research methods in the future under arbitrary changes to the technological contexts (machines, operating systems, programming languages frameworks)? Are we able to incrementally adapt research software to emerging opportunities at the same time, without loss of reproducibility and without incurring prohibitive cost?
 \item \emph{Is the software process we use fit for the quality we expect?} How can we optimize it in a unique academic context without losing quality? What tools and processes exist to help with this balance? What investments are necessary to discover it?
 \item \emph{How can we secure academic software quality?} How can we monitor, steer, report on and review academic software quality? How can we manage and secure trust between academic research teams considering software developed for output and or research methods?
@@ -347,12 +350,13 @@ Why would those small actions have impact? If software citations add to a schola
 Who else needs to act? Publishers need to agree to citations being included in publications. Software authors need to provide information about how their software should be cited. Citation tracking systems need to include software citations. 
 
 \todo{What are examples of what and what not to cite? Also, there might be differences in granularity that should be considered...}
+\katznote{see \S5.1 of \url{https://peerj.com/preprints/2169/} for some discussion on this}
 
 % ----------
 \paragraph{When reviewing, I will require others to properly cite software used to produce research results.}
 
 \on{OR: When I review a publication describing a software output, I will require a link to that software so I can test it.}
-\on{OR: When I review scholarly works (papers, software, \etc), I will point out missing or poorly organized software citations.}
+\on{OR: When I review scholarly works (papers, software, \etc), I will point out missing or poorly organized software citations.} \katznote{I think this was intended to be some of both, but mostly the latter}
 
 
 \emph{Background.} When a scholarly work relies on specific software, it should cite that software, to give credit to the creators of that software, to support reproducibility, and to provide a more complete understanding of the scholarly work.
@@ -434,7 +438,7 @@ Institutions such as NSF are beginning to recognize research products such as so
 
 The guidelines used for promotion and evaluation are important because they specify what is valued and thus shape the activities that people undertake. Ultimately promotion also determines who continues to be employed and thus whether people can continue to make contributions at all. Since promotion guidelines are written by the powerful within institutions, many people feel they can have little or no impact on them; even the powerful feel that they cannot deviate from how these are defined in similar institutions, leading to a stalemate in change.
 Nevertheless, we are all evaluated and we evaluate others, and we can influence these processes when we participate in these evaluations.
-Furthermore, we can provide a \meh{template language} \on{obscure. is it a template? a language? a template for language? a language for templates?} and seek to have respected organizations recommend \meh{them}. \on{what does "them" refer to?}
+Furthermore, we can provide a \meh{template language} \on{obscure. is it a template? a language? a template for language? a language for templates?} \katznote{I think this is `a template' (written in a language)} and seek to have respected organizations recommend \meh{them}. \on{what does "them" refer to?}
 For example, in 1994 the National Academies released a report titled, ``Academic Careers for Experimental Computer Scientists and Engineers''\footnote{\url{http://www.nap.edu/read/2236/chapter/1}}. The report was intended to provide a reference point for change, and has been quoted in many tenure recommendation letters.
 
 
@@ -575,7 +579,7 @@ In a project homepage (whatever form that may take), describing the processes an
 \emph{Background.}
 Initially developing software in closed fora often loses the benefits of open source processes. This includes allowing others to determine whom to credit and follow up regarding technical details. Open access allows developers to adapt code to related contexts. It allows a community of users to share the costs of sustaining the resource. Users can determine how well it fits their needs by inspecting details that are not visible from the external interfaces. In contexts where the quality of the software is critical, open access facilitates verification of correctness. Similarly, security flaws can be identified by a larger group, enabling earlier resolution.
  
-Starting as you intend to continue is important, because projects have their own momentum; it is far more difficult to change once you have established practices and infrastructure. Indeed transitioning from a typical, co-located, PI-directed software development process to an open process involves substantial organizational change across at least three dimensions 1) Governance and Leadership, 2) Collaboration infrastructure, and 3) Contribution processes (Howison, 2014).
+Starting as you intend to continue is important, because projects have their own momentum; it is far more difficult to change once you have established practices and infrastructure. Indeed transitioning from a typical, co-located, PI-directed software development process to an open process involves substantial organizational change across at least three dimensions 1) Governance and Leadership, 2) Collaboration infrastructure, and 3) Contribution processes (Howison, 2014). \todo{change this to a proper cite}
 
 A commonly used argument for not releasing the code associated with a research paper into the wild is that the code is ``bad'' and the scientist will be judged negatively based on the bad quality of the code.
 %\meh{Dismissive, uncharitable comments about existing code, as well as identifying a component that is ``easy'' to ``just'' do in some particular way.}
