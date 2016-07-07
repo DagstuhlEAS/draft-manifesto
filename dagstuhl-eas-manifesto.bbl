@@ -48,6 +48,12 @@ Christoph Becker, Ruzanna Chitchyan, Leticia Duboc, Steve Easterbrook, Martin
 {RSE Conference 2016}.
 \newblock What is a {Research} {Software} {Engineer}?, 2016.
 
+\bibitem{senyard2004have}
+Anthony Senyard and Martin Michlmayr.
+\newblock How to have a successful free software project.
+\newblock In {\em Software Engineering Conference, 2004. 11th Asia-Pacific},
+  pages 84--91. IEEE, 2004.
+
 \bibitem{weiner_astronomical_2009}
 Benjamin~J. Weiner, Michael~R. Blanton, Alison~L. Coil, Michael~C. Cooper,
   Romeel Davé, David~W. Hogg, Bradford~P. Holden, Patrik Jonsson, Susan~A.
