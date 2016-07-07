@@ -10,7 +10,7 @@
 \contentsline {subsection}{Recognition}{9}{subsection.2.2}
 \contentsline {subsection}{Making intellectual content visible}{11}{subsection.2.3}
 \contentsline {subsection}{Software Projects}{13}{subsection.2.4}
-\contentsline {subsection}{Sustainability}{17}{subsection.2.5}
+\contentsline {subsection}{Sustainability}{16}{subsection.2.5}
 \contentsline {section}{Future Research Directions}{18}{section.3}
 \contentsline {subsection}{Quantifying the state of scientific software availability.}{18}{subsection.3.1}
 \contentsline {subsection}{Sustainability of software experimentation}{18}{subsection.3.2}
