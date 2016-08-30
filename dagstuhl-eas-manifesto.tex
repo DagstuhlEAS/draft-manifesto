@@ -105,7 +105,7 @@ The manifesto is expressed in terms of a series of actionable ``pledges'' that u
 %}
 %\license
 
-Although the role of software is becoming increasingly important in diverse fields of research, it is commonly not given due recognition. Software is often not cited, or even considered to be citable. Developers of research software are not given due credit, and may not be invited as co-authors on papers disseminating the research that their software enabled.
+Although the role of software is becoming increasingly important in diverse fields of research, it is commonly not given due recognition. Software is often not cited, or even considered to be citable. Developers of research software are not given due credit, and may not be invited as co-authors on papers disseminating the research that their software enabled. \katznote{I'm don't think that developers of research software should always be invited as co-authors on papers disseminating the research that their software enabled. It depends on if the research software was developed for that research, or if was developed for something else and just used for that research.  In the former case, perhaps they should be co-authors.  In the latter, their software should be cited, but they should probably not be co-authors.}
 This Dagstuhl perspectives seminar
 explored the \emph{current state} of engineering of academic research software,
 identified common \emph{problems} with its development, recognition and sustainability,
@@ -123,6 +123,7 @@ and
 \paragraph{Citation}
 \begin{itemize}
 \item I will make explicit how to cite my software, I will cite the software I used to produce my research results, and when reviewing, I will require others to do so as well.
+\katznote{maybe ``\dots and when reviewing, I will require others to cite the software they have used.''}
 \end{itemize}
 
 % ----------
@@ -150,11 +151,11 @@ and
 \emph{Academia is software driven.} As software is becoming a pervasive technology for automating and innovating every aspect of the human condition (work, play, love and war), it is also embedded firmly in the academic world. On the one hand, in computer science, and in software engineering research in particular we see experimental software and toolkits emerge continuously, either as part of the \emph{output} of research effort, or as part of the \emph{research method}. On the other hand, in general it may be that software is used even more actively in other fields of research such as mathematics, biology, particle physics, astronomy, medicine, and law. Here too, we can distinguish software that is part of the output (\ie development of innovative production techniques) from software that contributes to the research methods. 
 
 There is an explosion of available open-data online which is accessed and analysed through the creation of new software --- generating more data to analyse. We focus on the \emph{sustainability} of this software, \ie any software that acquires, cleanses, stores, annotates, transforms, filters, generates (\etc) research data.
-By ``sustainability'' we mean the \emph{capacity to endure}. Software is sustainable if it will continue to be available in the future, on new platforms, and meeting new needs. 
+By ``sustainability'' we mean the \emph{capacity to endure}. Software is sustainable if it will continue to be available in the future, on new platforms, and meeting new needs. \katznote{Did we come up with this definition?  If not, we should cite where we got it from.  Actually, I see I might have said it - it's from slide 23 of \url{http://www.slideshare.net/danielskatz/scientific-software-challenges-and-community-responses}, though I don't know if made it up or took it from somewhere else and forgot to cite it}
 
 
 The perspective of this seminar is that of \emph{the research team developing and/or using academic software.} 
-A key role is that of the \emph{research software engineer} (RSE), the person with expertise both in academic research, and in the software engineering tools and technology needed to build the software used in the research, and to make it sustainable.
+A key role is that of the \emph{research software engineer} (RSE), the person with expertise both in academic research, and in the software engineering tools and technology needed to build the software used in the research, and to make it sustainable. \katznote{1. While I like the RSE title, I think there are other similar titles, perhaps used in other places, and perhaps we should mention some of them, such as Cyberinfrastructure Concierge, research infrastructure engineering, etc.  2. I think there can be a number of different types of people who have expertise in both the research field and software engineering.  Some of them are faculty.  I feel like RSEs generally have more strength in the SE part and less in the domain, while typical faculty have more in the domain and less in SE, but both can be on different points of the spectrum.}
 In this context it is critical that the \emph{intellectual contribution of software} be recognized and actively supported.
 
 As software is becoming integral to our processes, the tools we use, and the output we produce, this perspective provides a starting point for a discussion that is both timely and pressing:
@@ -235,6 +236,10 @@ There may be resistance from individual authors, even in the open science commun
 Academics whose careers are impacted by their relationships with editors at prestigious journals may worry about annoying those editors. While this is a battle worth fighting for, junior researchers may be anxious about making this stand against more powerful individuals who might misinterpret it. 
 This also increases the effort needed to review papers.  Various models for this have been suggested to reduce this, such as not having all reviewers required to test the software, to having special software reviewers who are assigned to reviewing software but not the full paper.
 
+Journals may have citation limits or page limits, so that adding software citations have the cost of removing other citations or removing research.
+
+For new types of scholarly works, for example software itself or data, there are no commonly accepted standard practices for how to publish that work with citations.
+
 \emph{What actions are needed?}
 Require a link to the software (screenshots are not enough!). Running examples will be helpful as well.
 
@@ -251,7 +256,7 @@ By requiring authors to provide these links, we will work towards educating the 
 
 \emph{Who else needs to act?} Publishers need to agree to citations being included in publications. Software authors need to provide information about how their software should be cited. Citation tracking systems need to include software citations. 
 Editors and authors too will need to begin to hold their colleagues to this standard in order for this to become a community norm.
-Conference chairs/journal editors may add this requirement explicitly when when publishing a call for papers. 
+Conference chairs/journal editors may add this requirement explicitly when when publishing a call for papers. Those publishers/repositorians \katznote{I don't know what the name is for people who create and run repositories} need to create mechanisms for all products to includes citations as part of their metadata.
 
 %\todo{What are examples of what and what not to cite? Also, there might be differences in granularity that should be considered...}
 %\katznote{see \S5.1 of \url{https://peerj.com/preprints/2169/} for some discussion on this}
@@ -268,7 +273,7 @@ Conference chairs/journal editors may add this requirement explicitly when when 
 % \on{was: I will include my software activities in my CV and in activity reports, and ask where they should go if they are not present. I will discuss and highlight these contributions when reviewing CVs \etc}
 
 \emph{Background.}
-Institutions such as the NSF are beginning to recognize research products such as software just as they do publications. This acknowledges the contributions of software as a primary research product. Including these in CVs and reports as well as requiring them from others is an important step towards normalizing them as having similar stature to publications. 
+Funding agencies such as the US NSF are beginning to recognize research products such as software just as they do publications. This acknowledges the contributions of software as a primary research product. Including these in CVs and reports as well as requiring them from others is an important step towards normalizing them as having similar stature to publications. 
 
 The guidelines used for promotion and evaluation are important because they specify what is valued and thus shape the activities that people undertake. Ultimately promotion also determines who continues to be employed and thus whether people can continue to make software contributions at all. Since promotion guidelines are written by the powerful within institutions, many people feel they can have little or no impact on them; even the powerful feel that they cannot deviate from how these are defined in similar institutions, leading to a stalemate that prevents change.
 Nevertheless, we are all evaluated and we evaluate others, and we can influence these processes when we participate in these evaluations.
@@ -280,7 +285,7 @@ For example, in 1994 the National Academies released a report titled, ``Academic
 \emph{Contradictions or concerns.}
 Software is often considered to be a scientific \emph{instrument} rather than an output itself.%
 \footnote{\url{http://ivory.idyll.org/blog/2015-software-as-a-primary-product-of-science.html}}
-Also, junior researchers may be wasting effort, accused of padding their resume, or in danger of confusing those who review their CVs. Until it is a community norm, junior researchers must be warned not to rely on these types of research products too heavily, as these notations may be ignored or, even worse, resented.
+Also, junior researchers may be \katznote{``viewed as''?} wasting effort, accused of padding their resume, or in danger of confusing those who review their CVs. Until it is a community norm, junior researchers must be warned not to rely on these types of research products too heavily, as these notations may be ignored or, even worse, resented.
 
 
 \emph{What actions are needed?}
@@ -531,7 +536,7 @@ One additional necessary element would be tool support to make it easy to get ap
 \subsection{Analysis of scientific software ecosystem metadata}
 
 With better metadata about projects we can pursue systems that provide insight into the scientific software ecosystem.
-Example efforts currently include Depsy\footnote{\url{http://depsy.org}} \todo{reference (Piwowar and Priem) --- can't find this. Is it a paper?} and the Scientific Software Network Map\footnote{\url{http://scisoft-net-map.isri.cmu.edu}} \todo{(Bogart, Howison, and Herbsleb) --- is this a paper?}.
+Example efforts currently include Depsy\footnote{\url{http://depsy.org}} \todo{reference (Piwowar and Priem) --- can't find this. Is it a paper?} \katznote{I don't think there's a paper - there's a blog: \url{http://blog.impactstory.org/introducing-depsy/} and a draft paper: \url{https://github.com/Impactstory/depsy-research/blob/master/introducing_depsy.md}} and the Scientific Software Network Map\footnote{\url{http://scisoft-net-map.isri.cmu.edu}} \todo{(Bogart, Howison, and Herbsleb) --- is this a paper?} \katznote{I think it was a talk or poster, cited as: ``Bogart, C., Howison, J., \& Herbsleb, J.D. (2015). Mapping the network of scientific software. Washington, DC: The Science of Team Science'' elsewhere}.
 These take data on software, authors, mentions in publications, and software projects and compose them into maps that provide information on direct and indirect impact, as well as data often hidden from developers (such as which projects are used with others by end users).
 
 Specific questions in the area of ecosystem analysis and metadata are:
