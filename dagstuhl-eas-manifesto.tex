@@ -115,33 +115,18 @@
 
 % ==================================================
 \newpage
-\section*{About the edit macros}
-
-\emph{Please comment out this section when it is no longer needed.}
-
-\on{Please use edit macros for comments you insert. See "edit-macros.tex" and add one for yourself if necessary.}
-
-There are generic macros for \todo{stuff to do} and \fix{stuff to fix}.
-
-There are macros for \ins{inserted text}, \del{deleted text}, and text to be changes \chg{from this}{to that}.
-You can also \meh{flag curious or questionable text}.
-
-
-\begin{inserted}
-There are also macros for blocks of text that have been inserted, deleted or refactored. These are useful to indicate proposals for changes to be checked by others in the pipeline.
-\end{inserted}
+% \input{editmacros.tex}
 
 % ==================================================
 \begin{abstract}
 Software is often a critical component of scientific research.
-It is used both as academic research results and as part of academic research methods. 
+%It is used both as academic research results and as part of academic research methods. 
+It can be a component of the academic research methods used to produce research results, or it may itself be an academic research result.
 Software, however, is rarely considered to be a citable artifact in its own right.
 With the advent of open-source software, artifact evaluation committees of conferences, and journals that include source code and running systems as part of the published artifacts, we foresee that software will increasingly be part of the academic process.
 The quality of this software must be accounted for, both a priori and a posteriori.
 
 The Dagstuhl perspectives seminar on ``Engineering Academic Software'' has examined the strengths, weaknesses, risks and opportunities of academic software engineering. A key outcome of the seminar is this manifesto, serving as a roadmap towards future professional software engineering for software-based research instruments and other software produced and used in an academic context.
-
-\todo{add some more specific points}
 \end{abstract}
 
 % ==================================================
@@ -154,14 +139,20 @@ The Dagstuhl perspectives seminar on ``Engineering Academic Software'' has exami
 %}
 %\license
 
+%:===> TODO -- EXECUTIVE SUMMARY <===
+
 \todo{
 1-2 pages TLDR.
-Summarize the main outcomes. Explain the five categories of pledges.
-Explain how the pledges are all intended to be actionable.
-Fill this in as the rest starts to stabilize.
+Summarize the main outcomes.\\
+Software is growing more important in research but is typically not given due recognition\\
+Explain the categories of pledges.\\
+Explain how the pledges are all intended to be actionable.\\
+Fill this in as the rest starts to stabilize.\\
+Need to recognize software as citable.\\
+Need to acknowledge formally the role of a ``research software engineer''\\
 }
 
-\on{Here I picked just one of the pledges of each group of five. Otherwise 18 pledges will be too many for the TLDR.}
+%\on{Here I picked just one of the pledges of each group of five. Otherwise 18 pledges will be too many for the TLDR.}
 
 \on{Terms that need to be defined/introduced:\\
 - Research Software Engineer\\
@@ -169,37 +160,43 @@ Fill this in as the rest starts to stabilize.
 - software sustainability\\
 }
 
+% By ``sustainability'' we mean the \emph{capacity to endure}. Software is sustainable if it will continue to be available in the future, on new platforms, and meeting new needs. 
+
 % ----------
-\paragraph{Citation \& Reviewing}
+\paragraph{Citation}
 \begin{itemize}
-\item I will properly cite software used to produce my research results.
+\item I will make explicit how to cite my software, I will cite the software I used to produce my research results, and when reviewing, I will require others to do so as well.
+%\item I will properly cite software used to produce my research results.
 %\item When reviewing, I will require others to properly cite software used to produce research results.
 %\item I will actively encourage funding agencies to include software experts in their review processes.
 \end{itemize}
 
 % ----------
-\paragraph{Recognition}
+\paragraph{Careers}
 \begin{itemize}
-\item I will recognize software contributions in hiring and promotion within my institution.
+\item I will recognize software contributions in hiring and promotion within my institution, and encourage others in my institution to do the same.
+%\item I will recognize software contributions in hiring and promotion within my institution.
 %\item I will recognize software contributions at conferences by proposing dedicated sessions and prizes.
 \end{itemize}
 
 % ----------
-\paragraph{Making intellectual content visible}
-\begin{itemize}
-\item I will publish the intellectual contributions of my research software.
-
-\on{not clear at all what are "intellectual contributions"}
-
+%\paragraph{Making intellectual content visible}
+%\begin{itemize}
+%\item I will publish the intellectual contributions of my research software.
+%
+%\on{not clear at all what are "intellectual contributions"}
 %\item I will distinguish the intellectual contribution of my software from its service contribution.
 %\item I will invite developers of software that enables research to be co-authors on papers about that research.
 %\item I will publish how I organize and run my software projects.
-\end{itemize}
+%\end{itemize}
 
 % ----------
-\paragraph{Software Projects}
+\paragraph{Development}
 \begin{itemize}
-\item I will develop software as open source from the start, whenever possible.
+\item I will document (including usage instructions, and input and output examples), package, release and archive versions of my software, and I will publish the intellectual contributions of my research software.
+\item I will develop software as open source from the start, whenever possible, and I will contribute to sustaining software I use and rely on.
+\item I will match proposed software engineering practices to the actual needs and resources of the project, and I will help scientists improve the quality of their software without passing judgment.
+%\item I will develop software as open source from the start, whenever possible.
 % WAS: I will develop software in the open from the start, whenever possible.
 
 % \on{kinda complicated. howzabout "i will choose an open source license ..." }
@@ -211,16 +208,16 @@ Fill this in as the rest starts to stabilize.
 \end{itemize}
 
 % ----------
-\paragraph{Sustainability}
-\begin{itemize}
-\item I will contribute to sustaining software I use and rely on. 
-
-\on{"sustaining" is confusing and hard to parse. (Are we sustaining the software, or is it the software that is doing the sustaining?)}
-\katznote{we want to sustain the software --- if we need to make changes to make it run, we will push those changes back for others to use (incremental updating).  If we can fix the documentation to clarify something, we will.  Etc.}
-%\item I will package, release and archive versions of my software.
-%\item I will make explicit how to cite my software.
-%\item I will consider and document the sustainability of my research software as thoroughly as its function.
-\end{itemize}
+%\paragraph{Sustainability}
+%\begin{itemize}
+%\item I will contribute to sustaining software I use and rely on. 
+%
+%\on{"sustaining" is confusing and hard to parse. (Are we sustaining the software, or is it the software that is doing the sustaining?)}
+%\katznote{we want to sustain the software --- if we need to make changes to make it run, we will push those changes back for others to use (incremental updating).  If we can fix the documentation to clarify something, we will.  Etc.}
+%%\item I will package, release and archive versions of my software.
+%%\item I will make explicit how to cite my software.
+%%\item I will consider and document the sustainability of my research software as thoroughly as its function.
+%\end{itemize}
 
 
 
@@ -231,12 +228,12 @@ Fill this in as the rest starts to stabilize.
 %:=== Introduction ===
 \section{Introduction}
 
-\on{NB: adapted from the proposal}
+%\on{NB: adapted from the proposal}
 \emph{Academia is software driven.} As software is becoming a pervasive technology for automating and innovating every aspect of the human condition (work, play, love and war), it is also embedded firmly in the academic world. On the one hand, in computer science, and in software engineering research in particular we see experimental software and toolkits emerge continuously, either as part of the \emph{output} of research effort, or as part of the \emph{research method}. On the other hand, in general it may be that software is used even more actively in other fields of research such as mathematics, biology, particle physics, astronomy, medicine, and law. Here too, we can distinguish software that is part of the output (\ie development of innovative production techniques) from software that contributes to the research methods. 
 
 There is an explosion of available open-data online which is accessed and analysed through the creation of new software --- generating more data to analyse. We focus on the impact of the quality of this software, \ie any software that acquires, cleanses, stores, annotates, transforms, filters, generates (\etc) research data.
 
-The perspective of this perspective seminar is that of \emph{the research team developing and/or using academic software.} 
+The perspective of this seminar is that of \emph{the research team developing and/or using academic software.} 
 As software is becoming integral to our processes, the tools we use, and the output we produce, this perspective provides a starting point for a discussion that is both timely and pressing:
 
 \begin{itemize}
@@ -244,10 +241,10 @@ As software is becoming integral to our processes, the tools we use, and the out
 \item \emph{Is the software that drives our research methods correct?} Are the inputs and outputs sufficiently specified to be able to interpret the difference between incorrect and correct? How to verify (test or prove) our claims?
 \item \emph{Is the software we use and produce in an academic context sustainable?}
 % \footnote{The opposite of sustainable software, often jokingly referred as ``PhD-ware'', is a serious threat to the rigor of the academic process.}
-\ins{``Sustainability'' refers not only to the qualities of a piece of software that contribute to its maintainability, but also commitment to processes and resources that will ensure that software's life beyond the scope of a single research project.}
-\on{ok?}
-\katznote{I like sustainability defined as the capacity to endure.
-For software, sustainability means the software will continue to be available in the future, on new platforms, meeting new needs.}
+%\ins{``Sustainability'' refers not only to the qualities of a piece of software that contribute to its maintainability, but also commitment to processes and resources that will ensure that software's life beyond the scope of a single research project.}
+%\on{ok?}
+%\katznote{I like sustainability defined as the capacity to endure. For software, sustainability means the software will continue to be available in the future, on new platforms, meeting new needs.}
+By ``sustainability'' we mean the \emph{capacity to endure}. Software is sustainable if it will continue to be available in the future, on new platforms, and meeting new needs. 
 Are we certain to be able reproduce previous research methods in the future under arbitrary changes to the technological contexts (machines, operating systems, programming languages frameworks)? Are we able to incrementally adapt research software to emerging opportunities at the same time, without loss of reproducibility and without incurring prohibitive cost?
 \item \emph{Is the software process we use fit for the quality we expect?} How can we optimize it in a unique academic context without losing quality? What tools and processes exist to help with this balance? What investments are necessary to discover it?
 \item \emph{How can we secure academic software quality?} How can we monitor, steer, report on and review academic software quality? How can we manage and secure trust between academic research teams considering software developed for output and or research methods?
@@ -272,99 +269,49 @@ Why the five categories?
 Explain that we first list the pledges, and then follow with detailed discussions below.}
 
 % ----------
-\paragraph{Citation \& Reviewing}
+\paragraph{Citation}
 \begin{itemize}
-\item I will properly cite software used to produce my research results.
-\item When reviewing, I will require others to properly cite software used to produce research results.
-\item I will actively encourage funding agencies to include software experts in their review processes.
+\item I will make explicit how to cite my software, I will cite the software I used to produce my research results, and when reviewing, I will require others to do so as well.
 \end{itemize}
 
 % ----------
-\paragraph{Recognition}
+\paragraph{Careers}
 \begin{itemize}
-\item I will recognize software contributions in hiring and promotion within my institution.
-\item I will recognize software contributions at conferences by proposing dedicated sessions and prizes.
+\item I will recognize software contributions in hiring and promotion within my institution, and encourage others in my institution to do the same.
 \end{itemize}
 
 % ----------
-\paragraph{Making intellectual content visible}
+\paragraph{Development}
 \begin{itemize}
-\item I will publish the intellectual contributions of my research software.
-\on{"intellectual contributions" is kinda "meta"}
-\item I will distinguish the intellectual contribution of my software from its service contribution.
-\on{hard to digest this!}
-\item I will invite developers of software that enables research to be co-authors on papers\del{ about that research}.
-\on{delete "about that research"?}
-\item I will publish how I organize and run my software projects.
-\on{unclear. do we mean "process"? tools?}
+\item I will publish the intellectual contributions of my research software, and
+I will document (including usage instructions, and input and output examples), package, release and archive versions of my software
+\item I will develop software as open source from the start, whenever possible, and I will contribute to sustaining software I use and rely on.
+\item I will match proposed software engineering practices to the actual needs and resources of the project, and I will help scientists improve the quality of their software without passing judgment.
 \end{itemize}
-
-% ----------
-\paragraph{Software Projects}
-\begin{itemize}
-\item I will develop software as open source from the start, whenever possible.
-% WAS: I will develop software in the open from the start, whenever possible.
-\item I will acknowledge that reading and understanding source code is a legitimate part of the academic \chg{discussion}{discourse}.
-\on{a bit convoluted?}
-\item I will match proposed software engineering practices to the actual needs and resources of the project.
-\on{should we explicitly say "the people" instead of just "the project"?}
-\item I will help scientists improve the quality of their software without passing judgment.
-\item I will document my academic software, including usage instructions, and input and output examples.
-\end{itemize}
-
-% ----------
-\paragraph{Sustainability}
-\begin{itemize}
-\item I will contribute to sustaining software I use and rely on. 
-\jv{"I will contribute to the open software projects that I use and rely on"}
-\item I will package, release and archive versions of my software.
-\jv{this needs semantic versioning! put this in the pledge or the discussion?}
-\item I will make explicit how to cite my software.
-\item I will consider and document the sustainability of my research software as thoroughly as its function.
-\on{somewhat mysterious. should be more precise}
-\jv{note the distinction between "sustainable" and "maintainable". A piece of software could be very clean and maintainable, but there might not be the processes or manpower available to sustain it.}
-\end{itemize}
-
 
 %:=== DISCUSSION OF PLEDGES ===
 % --------------------------------------------------
-\subsection{Citation \& Reviewing}
+\subsection{Citation}
 
 \todo{intro needed?}
 
 \on{In the intro we need to introduce the notion of an RSE}
 
 % ----------
-\paragraph{I will properly cite software used to produce my research results.}
+\paragraph{I will make explicit how to cite my software, I will cite the software I used to produce my research results, and when reviewing, I will require others to do so as well.}
 
-\emph{Background.} When a scholarly work relies on specific software, it should cite that software to support reproducibility and provide credit to the authors of the software that was used.
+\emph{Background.} When a scholarly work relies on specific software, it should cite that software, to give credit to the creators of that software, to support reproducibility, and to provide a more complete understanding of the scholarly work.
+This is important in order to raise the bar for transparency in academic work, and to recognize software as a research object worthy of exposure to peer review. This requirement by reviewers will help to strengthen the call for increased openness, transparency, and verifiability of software used in science. As researchers are motivated by pressure to publish, reviewers are uniquely able to apply pressure where rigor is needed. Previous work on this topic includes the Open Science Peer Review Oath~\cite{aleksic_open_2015}.
+% http://f1000research.com/articles/3-271/v2
+
+
 
 \emph{Contradictions or concerns.}
 Research might use a lot of software, so reference sections could potentially be cluttered with unhelpful citations (\eg citing all of the libraries used by some package). 
 Software evolves over time, so there might be many different citations that dilute its apparent impact. 
 Software can have dynamic authorship, complicating the question of who deserves credit for a particular version. 
 
-\emph{What actions are needed?} Authors need guidance about when to cite software (\ie which software should be cited) and how to cite software (\ie citation formats that will be picked up by citation tracking systems). 
-
-Why would those small actions have impact? If software citations add to a scholar's h-index, it can be beneficial for the authors. Readers of a paper seeking to build on the published work will have more concrete information about how the work was done. 
-
-Who else needs to act? Publishers need to agree to citations being included in publications. Software authors need to provide information about how their software should be cited. Citation tracking systems need to include software citations. 
-
-\todo{What are examples of what and what not to cite? Also, there might be differences in granularity that should be considered...}
-\katznote{see \S5.1 of \url{https://peerj.com/preprints/2169/} for some discussion on this}
-
-% ----------
-\paragraph{When reviewing, I will require others to properly cite software used to produce research results.}
-
-\on{OR: When I review a publication describing a software output, I will require a link to that software so I can test it.}
-\on{OR: When I review scholarly works (papers, software, \etc), I will point out missing or poorly organized software citations.} \katznote{I think this was intended to be some of both, but mostly the latter}
-
-
-\emph{Background.} When a scholarly work relies on specific software, it should cite that software, to give credit to the creators of that software, to support reproducibility, and to provide a more complete understanding of the scholarly work.
-This is important in order to raise the bar for transparency in academic work, and to recognize software as a research object worthy of exposure to peer review. This requirement by reviewers will help to ``give teeth'' to the call for increased openness, transparency, and verifiability of software used in science. As researchers are motivated by pressure to publish, reviewers are uniquely able to apply pressure where rigor is needed. Previous work on this topic includes the Open Science Peer Review Oath~\cite{aleksic_open_2015}.
-% http://f1000research.com/articles/3-271/v2
-
-\emph{Contradictions or concerns.} The software that needs to be cited may not be published, making it hard to determine how to cite it.  There may be limits on the numbers of citations permitted by a journal.  There may be a page limit for the text version of the work.  There may not be a clearly defined way to add citations for non-text products, such as software, either in the software itself or in the published metadata (\eg in Zenodo\footnote{\url{http://zenodo.org} \on{Should these be footnotes or full bibliographic references?}} or figshare\footnote{\url{https://figshare.com}}).
+The software that needs to be cited may not be published, making it hard to determine how to cite it.  There may be limits on the numbers of citations permitted by a journal.  There may be a page limit for the text version of the work.  There may not be a clearly defined way to add citations for non-text products, such as software, either in the software itself or in the published metadata (\eg in Zenodo\footnote{\url{http://zenodo.org}} or figshare\footnote{\url{https://figshare.com}}).
 There may be resistance from individual authors, even in the open science community, who believe that noting a URL is enough.%
 \footnote{For example, see these discussions:\\
 \url{https://github.com/scipy-conference/scipy_proceedings/pull/123\#issuecomment-117323363} and\\
@@ -372,16 +319,23 @@ There may be resistance from individual authors, even in the open science commun
 \on{Should these be proper bibliographic references?}
 }
 
-Academics whose careers are impacted by their relationships with editors at prestigious journals may worry about being a thorn in the side of those editors. While this is a battle worth fighting for, junior researchers may be anxious about making this stand against more powerful individuals who might misinterpret it. 
+Academics whose careers are impacted by their relationships with editors at prestigious journals may worry about annoying those editors. While this is a battle worth fighting for, junior researchers may be anxious about making this stand against more powerful individuals who might misinterpret it. 
 This also increases the effort needed to review papers.  Various models for this have been suggested to reduce this, such as not having all reviewers required to test the software, to having special software reviewers who are assigned to software testing/review but not review of the full paper.
 
-
 \emph{What actions are needed?}
-Require a link to the software. Screenshots are not enough! Running examples will be helpful as well.
+Require a link to the software (screenshots are not enough!). Running examples will be helpful as well.
 
 Reviewers need to take software seriously, and when a piece of software is mentioned, either by name or by description in the body of the work, in the acknowledgements, or in the citations, check to see if it is well-cited.  When software is the published work in question, other software on which it depends should be cited.%
 \footnote{Although it may not be clear how to do so. See:\\ \url{https://danielskatzblog.wordpress.com/2016/03/25/how-should-we-add-citations-inside-software/}.}
 
+Authors need guidance about when to cite software (\ie which software should be cited) and how to cite software (\ie citation formats that will be picked up by citation tracking systems). 
+
+Why would those small actions have impact? If software citations add to a scholar's h-index, it can be beneficial for the authors. Readers of a paper seeking to build on the published work will have more concrete information about how the work was done. 
+
+Who else needs to act? Publishers need to agree to citations being included in publications. Software authors need to provide information about how their software should be cited. Citation tracking systems need to include software citations. 
+
+\todo{What are examples of what and what not to cite? Also, there might be differences in granularity that should be considered...}
+\katznote{see \S5.1 of \url{https://peerj.com/preprints/2169/} for some discussion on this}
 
 Why would those small actions have impact? This effort by the reviewers should \emph{trickle up} to journal editors and \emph{trickle down} to research authors.
 
@@ -391,42 +345,10 @@ Why would those small actions have impact? By requiring authors to provide these
 
 Who else needs to act? Conference chairs/journal editors may add this requirement explicitly when when publishing a call for papers. 
 
-\todo{Note: We will need good (and diverse enough) examples for how to properly cite software.}
-
-% ----------
-\paragraph{I will actively encourage funding agencies to include software experts in their review processes.}
-% \on{was: I will petition/encourage funding agencies to include software experts in the review process for projects/grants that propose to build or use a significant amount of software.}
-
-% The idea being to catch too much software re-implementation, ensure sustainability, etc.
-
-\emph{Background.}
-Funding agencies give out a lot of money every year for software that reimplements existing tools, or that suffer from unrealistic software development plans. This severely impacts the sustainability of software that already exists, as it is discarded as opposed to being further developed and improved with new science.
-
-\todo{Somewhere earlier in the document introduce the term ``research software engineer''}
-
-UKRSE\footnote{\url{http://www.rse.ac.uk}}, a community of research software engineers in the UK, is starting to talk to the UK Research Councils (EPSRC\footnote{\url{https://www.epsrc.ac.uk}}, BBSRC\footnote{\url{http://www.bbsrc.ac.uk}}, \etc) about this issue. RSEs were involved in the selection process for the EPSRC RSE Fellowships, which is a good start, but should be extended to all software-heavy grant submissions.
-
-\emph{Contradictions or concerns.}
-The ``Not invented here'' syndrome: We don't trust that other group's software.
-It doesn't do exactly what we intend to do, and even though it?s 95\% close, we need to start over.
-
-\emph{What actions are needed?}
-\begin{itemize}
-\item I will recommend research software engineers as members of funding review panels.
-\item As a research software engineer I will volunteer to serve on funding review panels as grant reviewers and on funding panels where appropriate.
-\end{itemize}
-
-Why would those small actions have impact?
-Grant submissions would have to properly consider whether they could reuse existing software and justify fully if not.
-Just as we wouldn't expect a research software engineer to comment on the science within a grant, the scientists wouldn't be expected to comment on the software engineering proposed.
-Money would be saved by not rewriting lots of similar tools.
-Career sustainability would improve because grants could fund the original authors of the re-used software to continue to improve it for other groups.
-
-Who else needs to act?
-Research Councils and funding bodies will need to review their processes and adjust to accommodate different (separate?) types of review for grant and project submissions.
+%\todo{Note: We will need good (and diverse enough) examples for how to properly cite software.}
 
 % --------------------------------------------------
-\subsection{Recognition}
+\subsection{Careers}
 
 \todo{intro needed?}
 
@@ -435,11 +357,12 @@ Research Councils and funding bodies will need to review their processes and adj
 % \on{was: I will include my software activities in my CV and in activity reports, and ask where they should go if they are not present. I will discuss and highlight these contributions when reviewing CVs \etc}
 
 \emph{Background.}
-Institutions such as NSF are beginning to recognize research products such as software in the same breath as publications. This recognizes the contributions of software as a primary research product. Including these in CVs and reports as well as requiring them from others begins to normalize them as, indeed, of similar stature to publications. 
+Institutions such as NSF are beginning to recognize research products such as software just as they do publications. This acknowledges the contributions of software as a primary research product. Including these in CVs and reports as well as requiring them from others is an important step towards normalizing them as having similar stature to publications. 
 
-The guidelines used for promotion and evaluation are important because they specify what is valued and thus shape the activities that people undertake. Ultimately promotion also determines who continues to be employed and thus whether people can continue to make contributions at all. Since promotion guidelines are written by the powerful within institutions, many people feel they can have little or no impact on them; even the powerful feel that they cannot deviate from how these are defined in similar institutions, leading to a stalemate in change.
+The guidelines used for promotion and evaluation are important because they specify what is valued and thus shape the activities that people undertake. Ultimately promotion also determines who continues to be employed and thus whether people can continue to make software contributions at all. Since promotion guidelines are written by the powerful within institutions, many people feel they can have little or no impact on them; even the powerful feel that they cannot deviate from how these are defined in similar institutions, leading to a stalemate that prevents change.
 Nevertheless, we are all evaluated and we evaluate others, and we can influence these processes when we participate in these evaluations.
-Furthermore, we can provide a \meh{template language} \on{obscure. is it a template? a language? a template for language? a language for templates?} \katznote{I think this is `a template' (written in a language)} and seek to have respected organizations recommend \meh{them}. \on{what does "them" refer to?}
+Furthermore, we can provide templates and guidelines for recognizing software contributions and encourage respected organizations to adopt them.
+% a \meh{template language} \on{obscure. is it a template? a language? a template for language? a language for templates?} \katznote{I think this is `a template' (written in a language)} and seek to have respected organizations recommend \meh{them}. \on{what does "them" refer to?}
 For example, in 1994 the National Academies released a report titled, ``Academic Careers for Experimental Computer Scientists and Engineers''\footnote{\url{http://www.nap.edu/read/2236/chapter/1}}. The report was intended to provide a reference point for change, and has been quoted in many tenure recommendation letters.
 
 
@@ -462,53 +385,40 @@ If it is not clear how this may be done, I will explicitly ask where software co
 Who else needs to act?
 These actions should help to drive change in the university at higher levels and will involve the actions of higher level administrators.
 
-% ----------
-\paragraph{I will recognize software contributions at conferences by proposing dedicated sessions and prizes.}
-%\on{was: I will advocate for recognition of the contributions software authors make to science by proposing sessions on software at conferences and meetings}
-%\on{was: I will advocate for recognition of the contributions software authors make to science by working to establish one or more awards for these contributions. }
-
-\emph{Background.} Software has often been an invisible output of research, leading to its being undervalued and its contributions unrecognized.
-Few scientific disciplines recognize software contributions through prizes or awards, though offer awards, sometimes many awards, for many other aspects of research in that discipline.
-Embedding software sessions into conferences and meetings will make software methods and software authors more visible, essentially reminding people within the discipline that such research enablers and output exist.
-Establishing one or more awards for software contributions creates parity between other contributions and that of software.
-
-\emph{Contradictions or concerns.} Some conferences do not provide a natural place to offer a session on software. 
-Funding and managing the process of awarding a prize for software is a concern. 
-
-\emph{What actions are needed?}
-Look at award structures that are currently available in disciplines and institutions, and reach out to those who administer these other awards with concrete examples of software contributions that should be showcased. Identify funders and funding opportunities to create and sustain these awards. Reach out to senior software authors nearing the end of their careers to suggest endowing an award. Write proposals for funding one or more awards for software contributions.
-
-Why would those small actions have impact?
-Gathering information on award structures and administration will inform the other actions needed to propose awards.
-Including discussions about software in conferences and presentations on useful packages, providing a way for people to get more information about software in popular discipline conferences and meetings, and a way for software authors to talk about their concerns and methods, learn more about software engineering, and discuss issues with other software authors and with their software's users helps underscore the importance of computational methods to the discipline.
-
-Who else needs to act? 
-For holding software sessions at conferences: others in the discipline to propose and/or participate in such sessions and program organizing committees to select/allow such sessions. 
-Funding organizations to provide money for software awards, discipline societies to administer the process, and people to nominate possible recipients. 
-
 % --------------------------------------------------
-\subsection{Making intellectual content visible}
-
-\todo{intro needed?}
-
-\on{needs a discussion clarifying what is meant by ``intellectual contribution''}
+\subsection{Development}
 
 % ----------
-\paragraph{I will publish the intellectual contributions of my research software.}
+\paragraph{I will publish the intellectual contributions of my research software, and I will document (including usage instructions, and input and output examples), package, release and archive versions of my software}
 
+\emph{Background.}
+No software project is an island. We all rely on other software to build our software. If we use free software, such as tools, libraries and compilers, then it is fair and reasonable that we try and support these projects if we can. This might include citing it, letters of support, reporting issues, fixing bugs, contributing new features or monetary contributions.
 
-\on{Not very clear what is meant by "intellectual contributions". Can the pledge be rewritten to make this clear? Or does it go into the discussion?}
-
-\emph{Background.} 
 If you want to get credit for intellectual contributions in software, you have to explicitly make clear what they are. Writing this down is valuable for other RSEs and scientists alike. Moreover, when writing down your intellectual contributions, you will put them in a larger context, forcing yourself to take a broader viewpoint. Publishing these contributions in international peer-reviewed venues strengthens and legitimizes the case that there are significant intellectual contributions in the software.
 
-\on{This does not clarify what is intended by ``intellectual contributions in software''. Some examples should be given. Are we talking about innovative algorithms? Or open flexible design to support a range of experiments? What is the dividing line between ``intellectual contribution'' and ``software engineering for research''?}
+%\on{This does not clarify what is intended by ``intellectual contributions in software''. Some examples should be given. Are we talking about innovative algorithms? Or open flexible design to support a range of experiments? What is the dividing line between ``intellectual contribution'' and ``software engineering for research''?}
+
+Learning by example is an established pedagogical framework. Users often find it easier to understand how to use a complex system through examples. Each instance typically corresponds to a common use case. This allows users to start working with the software without making a large investment of time. Lowering the bar to use can incentivize wider investigational use of the system. If a user finds initial utility, they are likely to then invest the effort into understanding more complex functionality that may require study of detailed documentation (or the code itself).
+
+The process of providing examples can aid developers improve both their code and documentation. It encourages consideration of how the software will be utilized in practice. A significant benefit of software requirements is the effect they have on the development process. In particular, this can bring to the surface contradictions at design time, even before implementation commences. Of similar importance is the identification of corner cases that may not otherwise have been considered. This can resolve potential problems earlier in the development process.
 
 \emph{Contradictions or concerns.}
+Some projects may be concerned about contributing new features that may compromise their research in some way. In this case new features could be contributed upstream after relevant papers have been published.
+
 Of course, writing a paper will consume valuable time that cannot be spent on the software itself. This should be made explicit before a software project starts. Expectation management is needed. PIs have to be on-board for this to work. Authorship rules for these papers should be discussed in advance (\eg RSEs only, RSE lead and PIs also co-authors, \etc).
 
 \emph{What actions are needed?}
 Write papers on intellectual contributions in software. Of course, this also implies that you will perform peer review of similar papers written by others. Go to relevant venues to disseminate the work you did.
+Document your software by:
+\begin{itemize}
+\item Cataloging the components that can be invoked by a user.
+\item Providing clear descriptions of the requirements for each component.
+\item If sensible defaults are absent, offering guidance on configuring the system to use each component.
+\item Considering common use cases for each such piece of code.
+\item Constructing a sample invocation of the software, along with a specific input and the expected output.
+\item If the software allows components to be composed, providing examples of how to do so.
+\end{itemize}
+
 
 Why would those small actions have impact?
 The impact of this (small) step is more and wider recognition that software can contain intellectual contributions, and that supports the long-term career paths of academic software engineers to publish about this. This will also establish the field of eScience/eResearch as a more mature scientific discipline.
@@ -516,71 +426,15 @@ The impact of this (small) step is more and wider recognition that software can 
 Who else needs to act?
 We need sufficient venues for this type of work (journals, conferences, \etc).  We need sufficient reviewers.  We need management of the RSE to be supportive.  We need the collaborating PIs to be supportive.  We need to build funding for the time needed to document the contributions and to present them to be either build into the project or to be seen as standard overhead on the work.
 
-
-
 % ----------
-\paragraph{I will distinguish the intellectual contribution of my software from its service contribution.}
-
-\on{rather obscure}
-
-\on{formerly: I will teach people that software has an intellectual contribution and help software authors distinguish their intellectual contribution from their service contribution.}
-
-Scientific/academic/research software often contains novel scientific and intellectual contributions that go far beyond infrastructure and should not be artificially distinguished from actual science. I will respond to blog posts claiming otherwise and will produce evidence to support this. When I encounter impressive software projects, I will showcase them on any social media that I use.
-
-% ----------
-\paragraph{I will invite developers of software that enables research to be co-authors on papers about that research.}
-
-
-\on{delete "about that research"?}
-
-\on{Can this be folded into the first pledge in this section?}
-
-
-\todo{MISSING?}
-
-% ----------
-\paragraph{I will publish how I organize and run my software projects.}
-
-% WAS: I will encourage publication about the organizations that are creating scientific software, including which tools they use, their methodologies, how they motivate participation, how they choose code review systems, \etc
-
-%\on{unclear. do we mean process? tools?}
-
-
-\emph{Background.} The environment in which software is developed, particularly in academia, can shape the reliability, utility, and social impact of that software.  This environment includes processes and standards such as communication methods (technical and social), code review (mechanisms, standards and platforms), community engagement (social and professional rewards and incentives), and management structures and strategies.
-
-Improving the awareness of methodologies (successful and unsuccessful) as well as encouraging descriptions of those methodologies can improve the overall efficiency of software development in academia.  In particular, there is a vast literature related to software development methodologies in industrial settings. While not all of this literature will directly translate to development of academic software, as incentive, timeline and requirements are often different, this literature can help us to understand how to graft, shape, or invent software practices for academic software.
-The WSSSPE conference series\footnote{\url{http://wssspe.researchcomputing.org.uk}} has collected such practices from different communities; disseminating this information to audiences that have not yet seen it will likely increase uptake and awareness.
-
-Technical aspects as well as social aspects can guide the development practices of software in positive or negative directions.  For instance, this includes the tenor of communication as well as the medium of communication.  Platforms that allow and enable easy engagement and modification as well as appropriate credit (\ie pull requests to DVCS as opposed to patch-based submissions to non-distributed VCS) improve overall sense of engagement on the part of software developers both within and external to the core development team.
-
-\emph{Contradictions or concerns.} Are these part of the ``intellectual contributions'' of the software itself?  Do the practices need to find a separate venue (such as WSSSPE)?
-
-\emph{What actions are needed?} Blogging? \chg{Upfronting}{Emphasizing} the ``forgotten'' aspects in project contribution guidelines.
-
-Why would those small actions have impact?
-In a project homepage (whatever form that may take), describing the processes and practices can encourage engagement.  Describing the reasoning behind those processes and practices will help individuals to decide how to conduct their own projects in the future.  
-
-% Leading by example. Practices are important but not recognized as practices that can be designed.
-
-% Who else needs to act: (?)
-
-
-% --------------------------------------------------
-\subsection{Software Projects}
-
-\todo{intro needed?}
-
-% ----------
-\paragraph{I will develop software as open source from the start, whenever possible.}
-% WAS: I will develop software in the open from the start, whenever possible.
-
-% \on{NB Absorbs: I will help scientists improve the quality of their software without passing judgment.}
-% \on{also: I will encourage software authors to release their software without judgement. }
+\paragraph{I will develop software as open source from the start, whenever possible, and I will contribute to sustaining software I use and rely on.}
 
 \emph{Background.}
+Some projects are intended to be long-lived and widely usable; others are intended only to create outputs for a single research project or even paper. Potential users should be aware of the author's intentions for a project before deciding to rely on it.  
+
 Initially developing software in closed fora often loses the benefits of open source processes. This includes allowing others to determine whom to credit and follow up regarding technical details. Open access allows developers to adapt code to related contexts. It allows a community of users to share the costs of sustaining the resource. Users can determine how well it fits their needs by inspecting details that are not visible from the external interfaces. In contexts where the quality of the software is critical, open access facilitates verification of correctness. Similarly, security flaws can be identified by a larger group, enabling earlier resolution.
- 
-Starting as you intend to continue is important, because projects have their own momentum; it is far more difficult to change once you have established practices and infrastructure. Indeed transitioning from a typical, co-located, PI-directed software development process to an open process involves substantial organizational change across at least three dimensions 1) Governance and Leadership, 2) Collaboration infrastructure, and 3) Contribution processes (Howison, 2014). \todo{change this to a proper cite}
+
+Starting as you intend to continue is important, because projects have their own momentum; it is far more difficult to change once you have established practices and infrastructure. Indeed transitioning from a typical, co-located, PI-directed software development process to an open process involves substantial organizational change across at least three dimensions 1) Governance and Leadership, 2) Collaboration infrastructure, and 3) Contribution processes (Howison, 2014). \todo{change this to a proper citation}
 
 A commonly used argument for not releasing the code associated with a research paper into the wild is that the code is ``bad'' and the scientist will be judged negatively based on the bad quality of the code.
 %\meh{Dismissive, uncharitable comments about existing code, as well as identifying a component that is ``easy'' to ``just'' do in some particular way.}
@@ -592,20 +446,23 @@ A very large movement behind this openness is already well underway and has resu
 \footnote{\url{http://lorenabarba.com/gallery/reproducibility-pi-manifesto/}, \url{http://www.openaccesspledge.com/}}
 
 \emph{Contradictions or concerns.}
+We want scientists to release their code, or even better develop their code completely into the open, however, we criticize them for releasing code that does not comply to a high standard of quality. 
+
 Some institutions prohibit release of software under a FOSS license without IP review. This can often be addressed by planning and stating the code will be open sourced at the time funding is sought, \ie in the proposal itself.
-\meh{When a project is initiated, this basis allows such reviews to be addressed in the absence of a concrete product.} \on{obscure}
+%\meh{When a project is initiated, this basis allows such reviews to be addressed in the absence of a concrete product.} \on{obscure}
+%Software can evolve from one state to the other as its utility is recognized by others, so these decisions may need to be revisited. 
 
 There is literature on success in open source arguing that projects should start with a (nearly) working software application, not just ideas and plans~\cite{senyard2004have}. One possible solution here is to use infrastructure that can be easily opened, such as private repositories on github, but carefully choose when to flip that switch. That does not, however, change practices such as governance.
 
-We want scientists to release their code, or even better develop their code completely into the open, however, we criticize them for releasing code that does not comply to a high standard of quality. 
-
-There have been cases where researchers have released their code and have been publicly shamed by the software engineering community because it was of low quality.
-\todo{(NEED CITATIONS- SOMETHING WAS ON SLASHDOT A COUPLE OF YEARS AGO)}
+%There have been cases where researchers have released their code and have been publicly shamed by the software engineering community because it was of low quality.
+%\todo{(NEED CITATIONS- SOMETHING WAS ON SLASHDOT A COUPLE OF YEARS AGO)}
 
 
 \emph{What actions are needed?}
 Promote a culture acknowledging that any code contribution attached to a research paper that makes is possible to reproduce research results is valuable, regardless of the quality of the code. Once the code is freely available its quality can be improved.
 Provide, at the university level, services for code review that scientists wanting to release their code can use. This can increase both their confidence and their technical skills. 
+
+A framework for understanding different kinds of software would be useful, along with better ways to evaluate the likely utility of a piece of software. 
 
 Establish a specific plan for releasing scientific source code from day one of development. This should include:
 \begin{itemize}
@@ -626,143 +483,29 @@ Whenever a paper is published within your institution that explicitly mentions t
 Who else needs to act?
 Reviewers of papers need to insist that code behind papers is released. Funders need to make software release part of the requirement for funding.
 
-
 % ----------
-\paragraph{I will acknowledge that reading and understanding source code is a legitimate part of the academic discussion.}
+\paragraph{I will match proposed software engineering practices to the actual needs and resources of the project, and I will help scientists improve the quality of their software without passing judgment.}
 
-\on{a bit convoluted? Candidate for deletion or merging.}
 
 \emph{Background.}
-An intellectual contribution cannot be appraised if it is not even observed. Reading source code is at least as hard as reading an academic paper is. This is partly because it actually is an intellectual contribution. To motivate reading source code to others, consider that the quality of their research [method] is directly dependent on the quality of the code they use, similar to the literature they cite to support the background theory on which their research is based. 
-
-\emph{What actions are needed?}
-\begin{itemize}
-\item I will teach people how to read and appraise source code of academic software.
-\item I will write source code while considering the future audience of source code readers, which are users and maintainers alike (documenting it with statements of intent and design decisions, not re-narrating the code in natural language).
-\item I will show my source code to others pro-actively, rather than waiting for them to look it up.
-\end{itemize}
-
-``Use the force, read the source''; that just had to come out.
-
-Education in software and engineering, or programming education, needs to pay attention to the act of reading source code. Here's some educational material:
-\begin{enumerate}
-\item Crista Lopez; ``exercises in programming style''; a software chrestomathy book that can be used to teach the art of code reading
-\item Greg Wilson; ``Beautiful code'', code which is actually very much not perfect, yet had impact and a contribution. Authors not apologizing but emphasizing the qualitative aspects and the impact of the code.
-\item Ralf Laemmel; \url{http://101companies.org/}. Comparing code is a necessary skill towards knowing how to read the next piece of code.
-\end{enumerate}
-
-
-% ----------
-\paragraph{I will match proposed software engineering practices to the actual needs and resources of the project.}
-
-% Was: "I will consider the context in which software engineering "solutions" are applicable, and acknowledge that they are substantial investments for scientists."
-
-\on{should we explicitly say "the people" instead of just "the project"?}
-
-\emph{Background.}
-By necessity, software is often developed with somewhat abstracted sense of the ultimate use case. Researchers who adopt our solutions must be provided assistance in mapping their intellectual context to that of the software solution. This includes help with adapting their existing analytical processes, formatting data for use by the solution, and guidance on how its outputs should be interpreted. Failing to provide this kind of help can lead to mutual frustration, wasted research time or inappropriate outputs, and ultimately undermines the value and sustainability of the solution. Furthermore, being in the trusted position of providing guidance and feedback has to be continually legitimized by responding to real concerns in ways that empower, rather than shame. Adopting a tool or process demands time and energy, but is also associated with great uncertainty. It is often not clear (1) whether the solution is appropriate, and (2) when one should top pushing a particular solution.
+By necessity, software is often developed with a somewhat abstracted sense of the ultimate use case. Researchers who adopt our solutions must be provided assistance in mapping their intellectual context to that of the software solution. This includes help with adapting their existing analytical processes, formatting data for use by the solution, and guidance on how its outputs should be interpreted. Failing to provide this kind of help can lead to mutual frustration, wasted research time or inappropriate outputs, and ultimately undermines the value and sustainability of the solution. Furthermore, being in the trusted position of providing guidance and feedback has to be continually legitimized by responding to real concerns in ways that empower, rather than shame. Adopting a tool or process demands time and energy, but is also associated with great uncertainty. It is often not clear (1) whether the solution is appropriate, and (2) when one should top pushing a particular solution.
 
 \emph{Contradictions or concerns.}
 Evaluating whether a solution is appropriate is time-intensive, and end users may not be equipped to do so. Additional expertise is needed, but the person offering that expertise bears the burden of communicating effectively to the end users. This takes time, energy, and its own skill set.
 
-It is hard enough to get funding to support primary software development. \chg{Offerors}{Researchers?} under any sort of financial pressure may have difficulty prioritizing such support over new development and innovation. 
+It is hard enough to get funding to support primary software development. Researchers under any sort of financial pressure may have difficulty prioritizing such support over new development and innovation. 
 
 \emph{What actions are needed?}
 When a software solution is proffered to a research community, there should be an explicit plan to provide sustained human support for it. This can include a statement that no such support can be provided, but the expectation should be explicitly set for the end users rather than leaving them to struggle. This allows them to incorporate support availability into their evaluation of the appropriateness of the solution. 
 
-One should create low-cost opportunities to re-evaluate the appropriateness of the solution.
-No users of SE solutions should be saying things like, ``I am using XXX because Bob wants me to.''
-Recognize and reward community and skill achievements even when a solution does not pan out.
-``Back to square one'' is a fallacy. \on{huh?}
+%One should create low-cost opportunities to re-evaluate the appropriateness of the solution.
+%No users of SE solutions should be saying things like, ``I am using XXX because Bob wants me to.''
+%Recognize and reward community and skill achievements even when a solution does not pan out.
+%``Back to square one'' is a fallacy. \on{huh?}
 
 Time constraints (\eg introduced by sprints, workshops, hackathons) can help mitigate the uncertainty associated with adoption and create momentum for an in-depth evaluation of the appropriateness of a demanding technological solution.
 
 If I am in the position of assessing the context or suggesting a solution, I will not only focus on the things I am most excited about (the shiny new tool) but make an effort to hear what the scientists/users are excited about, and ways the best parts of existing process and enthusiasm can be channelled into sustained productivity.
-
-% ----------
-\paragraph{I will help scientists improve the quality of their software without passing judgment.}
-
-\todo{MISSING?}
-
-\on{fold into the previous?}
-
-% ----------
-\paragraph{I will document my academic software, including usage instructions, and input and output examples.}
-
-\emph{Background.}
-Learning by example is an established pedagogical framework. Users often find it easier to understand how to use a complex system through examples. Each instance typically corresponds to a common use case. This allows users to start working with the software without making a large investment of time. Lowering the bar to use can incentivize wider investigational use of the system. If a user finds initial utility, they are likely to then invest the effort into understanding more complex functionality that may require study of detailed documentation (or the code itself).
-
-The process of providing examples can aid developers improve both their code and documentation. It encourages consideration of how the software will be utilized in practice. A significant benefit of software requirements is the effect they have on the development process. In particular, this can bring to the surface contradictions at design time, even before implementation commences. Of similar importance is the identification of corner cases that may not otherwise have been considered. This can resolve potential problems earlier in the development process.
-
-% \emph{Contradictions or concerns.}
-
-\emph{What actions are needed?}
-A number of steps should be undertaken toward this:
-\begin{itemize}
-\item Cataloging the components that can be invoked by a user.
-\item Providing clear descriptions of the requirements for each component.
-\item If sensible defaults are absent, guidance on configuring the system to use each component.
-\item Considering common use cases for each such piece of code.
-\item Constructing a sample invocation of the software, along with a specific input and the expected output.
-\item If the software allows components to be composed, providing examples of how to do so.
-\end{itemize}
-
-% --------------------------------------------------
-\subsection{Sustainability}
-
-\todo{intro needed?}
-
-% ----------
-\paragraph{I will contribute to sustaining software I use and rely on.}
-% \jv{"I will contribute to the open software projects that I use and rely on"}
-% \on{was: I will make explicit my intentions to sustain (or not sustain) software I release.}
-
-\emph{Background.} Some projects are intended to be long-lived and widely usable; others are intended only to create outputs for a single research project or even paper. Potential users should be aware of the author's intentions for a project before deciding to rely on it.  
-
-\emph{Contradictions or concerns.} Software can evolve from one state to the other as its utility is recognized by others, so these decisions may need to be revisited. 
-
-
-\emph{What actions are needed?}
-A framework for understanding different kinds of software would be useful, along with better ways to evaluate the likely utility of a piece of software. 
-
-
-% ----------
-\paragraph{I will package, release and archive versions of my software.}
-% \on{was: I will contribute to supporting software I use and rely on.}
-% \jv{this needs semantic versioning! put this in the pledge or the discussion?}
-
-\emph{Background.}
-No software project is an island. We all rely on other software to build our software. If we use free software, such as tools, libraries and compilers, then it is fair and reasonable that we try and support these projects if we can. This might include citing it, letters of support, reporting issues, fixing bugs, contributing new features or monetary contributions.
-
-\emph{Contradictions or concerns.}
-Some projects may be concerned about contributing new features that may compromise their research in some way. In this case new features could be contributed upstream after relevant papers have been published.
-
-%\emph{What actions are needed?}
-%Why would those small actions have impact:
-%Who else needs to act:
-
-
-% ----------
-\paragraph{I will make explicit how to cite my software.}
-
-\todo{MISSING?}
-
-% ----------
-\paragraph{I will consider and document the sustainability of my research software as thoroughly as its function.}
-% \on{Formerly: I will understand what sort of project I'm working with/on. I will help others articulate these choices for their own projects.}
-
-\on{somewhat mysterious. should be more precise}
-\jv{note the distinction between "sustainable" and "maintainable". A piece of software could be very clean and maintainable, but there might not be the processes or manpower available to sustain it.}
-
-
-\emph{Background.} Academic software varies widely along dimensions relevant for planning development. Some projects are intended to be long-lived and widely usable; others are intended only to create outputs for a single research project or even paper. Software engineering practices that are appropriate (indeed necessary) for the former may be overkill for the latter. 
-
-\emph{Contradictions or concerns.} Even software used for a single paper needs to be correct, auditable and reproducible (if only by the author), necessitating a certain level of engineering effort to ensure quality. And software can evolve from one state to the other as its utility is recognized by others, so these decisions may need to be revisited. 
-
-\emph{What actions are needed?}
-A framework for understanding different kinds of software and appropriate software engineering and project management techniques would be helpful, as would better ways to evaluate the likely utility of a piece of software. 
-
-
 
 % ==================================================
 %:=== Future Research Directions ===
@@ -1025,31 +768,15 @@ includes focus on research data. The goal is to make them findable, accessible, 
 
 % ==========================================================
 %:=== JUNK ===
-\section*{Brainstorming detritus}
+% \input{detritus.tex}
 
-NB: keep until final version, then delete
-
-Other outputs that might be the basis for an I will:
-
-Empirical survey of practices
-Shoot the dogma
-How to design communities
-Teaching how to design
-Teaching activities towards appreciation of software
-
-Q: should we make calls to policy makers, as well? Calls for things that are not possible through our actions, that require change by others? 
-
-Meta or follow-up manifesto?
-
-research on software code manifesto?
-\url{http://sciencecodemanifesto.org/}
 
 
 \end{appendix}
 
 % ==================================================
 \begin{participants}
-\on{Since everyone is an author, do we need this list?}\\
+%\on{Since everyone is an author, do we need this list?}\\
 \participant Alice Allen\\ University of Maryland -- College Park
 \participant Cecilia Aragon\\ University of Washington -- Seattle
 \participant Christoph Becker\\ University of Toronto
@@ -1082,6 +809,11 @@ research on software code manifesto?
 \section*{Acknowledgements}
 
 We thank Tobias Rawald (GFZ Potsdam) for his contributions to the phrasing of the pledges.
+
+
+% ==========================================================
+%:=== ORPHANS ===
+% \input{orphans.tex}
 
 % ==========================================================
 %\bibliography{dagman-sample} % use bibtex or thebibliography-environment (as below)
