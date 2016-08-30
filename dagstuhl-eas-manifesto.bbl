@@ -9,22 +9,29 @@ Jelena Aleksic, Adrian Alexa, Teresa~K Attwood, Neil Chue~Hong, Martin Dahlö,
   Practice Workshop}.
 \newblock An {Open} {Science} {Peer} {Review} {Oath}.
 \newblock {\em F1000Research}, January 2015.
+\newblock URL: \url{http://f1000research.com/articles/3-271/v2}, \href
+  {http://dx.doi.org/10.12688/f1000research.5686.2}
+  {\path{doi:10.12688/f1000research.5686.2}}.
 
 \bibitem{alex_holcombe_open_2011}
 {Alex Holcombe}.
 \newblock Open {Access} {Pledge} {\textbar} {Making} and tracking open access
   pledges, 2011.
+\newblock URL: \url{http://www.openaccesspledge.com/}.
 
 \bibitem{arfon_m._smith_software_2016}
 {Arfon M. Smith}, {Kyle E. Niemeyer}, {Daniel S. Katz}, and {FORCE11 Software
   Citation Working Group}.
 \newblock Software {Citation} {Principles}.
 \newblock {\em FORCE11}, Draft, 2016.
+\newblock URL: \url{https://www.force11.org/software-citation-principles}.
 
 \bibitem{barba_reproducibility_2012}
 Lorena~A. Barba.
 \newblock Reproducibility {PI} {Manifesto}, December 2012.
 \newblock DOI:10.6084/m9.figshare.104539.v1.
+\newblock URL:
+  \url{https://figshare.com/articles/Reproducibility_PI_Manifesto/104539}.
 
 \bibitem{becker_karlskrona_2014}
 Christoph Becker, Ruzanna Chitchyan, Leticia Duboc, Steve Easterbrook, Martin
@@ -34,25 +41,31 @@ Christoph Becker, Ruzanna Chitchyan, Leticia Duboc, Steve Easterbrook, Martin
 \newblock The {Karlskrona} manifesto for sustainability design.
 \newblock {\em arXiv:1410.6968 [cs]}, October 2014.
 \newblock arXiv: 1410.6968.
+\newblock URL: \url{http://arxiv.org/abs/1410.6968}.
 
 \bibitem{nick_barnes_science_2013}
 {Nick Barnes}.
 \newblock Science {Code} {Manifesto}, 2013.
+\newblock URL: \url{http://sciencecodemanifesto.org/}.
 
 \bibitem{onto_soft_what_2016}
 {Onto Soft}.
 \newblock What is a {Geoscience} {Paper} of the {Future} {\textbar} {The}
   {Geoscience} {Papers} of the {Future} {Initiative}, 2016.
+\newblock URL: \url{http://www.ontosoft.org/gpf/what-is-a-gpf}.
 
 \bibitem{rse_conference_2016_what_2016}
 {RSE Conference 2016}.
 \newblock What is a {Research} {Software} {Engineer}?, 2016.
+\newblock URL: \url{http://www.rse.ac.uk/who.html}.
 
 \bibitem{senyard2004have}
 Anthony Senyard and Martin Michlmayr.
 \newblock How to have a successful free software project.
 \newblock In {\em Software Engineering Conference, 2004. 11th Asia-Pacific},
   pages 84--91. IEEE, 2004.
+\newblock URL:
+  \url{http://www.cyrius.com/publications/senyard_michlmayr-successful_project.pdf}.
 
 \bibitem{weiner_astronomical_2009}
 Benjamin~J. Weiner, Michael~R. Blanton, Alison~L. Coil, Michael~C. Cooper,
@@ -62,6 +75,7 @@ Benjamin~J. Weiner, Michael~R. Blanton, Alison~L. Coil, Michael~C. Cooper,
 \newblock Astronomical {Software} {Wants} {To} {Be} {Free}: {A} {Manifesto}.
 \newblock {\em arXiv:0903.3971 [astro-ph]}, March 2009.
 \newblock arXiv: 0903.3971.
+\newblock URL: \url{http://arxiv.org/abs/0903.3971}.
 
 \bibitem{wilkinson_fair_2016}
 Mark~D. Wilkinson, Michel Dumontier, IJsbrand~Jan Aalbersberg, Gabrielle
@@ -80,5 +94,8 @@ Mark~D. Wilkinson, Michel Dumontier, IJsbrand~Jan Aalbersberg, Gabrielle
 \newblock The {FAIR} {Guiding} {Principles} for scientific data management and
   stewardship.
 \newblock {\em Scientific Data}, 3, March 2016.
+\newblock URL: \url{http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4792175/},
+  \href {http://dx.doi.org/10.1038/sdata.2016.18}
+  {\path{doi:10.1038/sdata.2016.18}}.
 
 \end{thebibliography}
