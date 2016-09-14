@@ -26,6 +26,15 @@ Jelena Aleksic, Adrian Alexa, Teresa~K Attwood, Neil Chue~Hong, Martin Dahlö,
 \newblock {\em FORCE11}, Draft, 2016.
 \newblock URL: \url{https://www.force11.org/software-citation-principles}.
 
+\bibitem{Baker2016}
+Monya Baker.
+\newblock Why scientists must share their research code.
+\newblock {\em Nature}, 2016.
+\newblock URL:
+  \url{http://www.nature.com/news/why-scientists-must-share-their-research-code-1.20504},
+  \href {http://dx.doi.org/10.1038/nature.2016.20504}
+  {\path{doi:10.1038/nature.2016.20504}}.
+
 \bibitem{barba_reproducibility_2012}
 Lorena~A. Barba.
 \newblock Reproducibility {PI} {Manifesto}, December 2012.
