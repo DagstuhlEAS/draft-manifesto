@@ -23,7 +23,7 @@ Jelena Aleksic, Adrian Alexa, Teresa~K Attwood, Neil Chue~Hong, Martin Dahlö,
 {Arfon M. Smith}, {Kyle E. Niemeyer}, {Daniel S. Katz}, and {FORCE11 Software
   Citation Working Group}.
 \newblock Software {Citation} {Principles}.
-\newblock {\em FORCE11}, Draft, 2016.
+\newblock {\em PeerJ Computer Science}, Accepted, 2016.
 \newblock URL: \url{https://www.force11.org/software-citation-principles}.
 
 \bibitem{Baker2016}
@@ -52,13 +52,26 @@ Christoph Becker, Ruzanna Chitchyan, Leticia Duboc, Steve Easterbrook, Martin
 \newblock arXiv: 1410.6968.
 \newblock URL: \url{http://arxiv.org/abs/1410.6968}.
 
+\bibitem{DBLP:journals/procedia/GorpM11}
+Pieter~Van Gorp and Steffen Mazanek.
+\newblock {SHARE:} a web portal for creating and sharing executable research
+  papers.
+\newblock In {\em Proceedings of the International Conference on Computational
+  Science, {ICCS} 2011}, pages 589--597, June 2011.
+
 \bibitem{nick_barnes_science_2013}
 {Nick Barnes}.
 \newblock Science {Code} {Manifesto}, 2013.
 \newblock URL: \url{http://sciencecodemanifesto.org/}.
 
+\bibitem{NOWAKOWSKI2011608}
+Piotr Nowakowski, Eryk Ciepiela, Daniel Harezlak, Joanna Kocot, Marek
+  Kasztelnik, Tomasz Bartynski, Jan Meizner, Grzegorz Dyk, and Maciej Malawski.
+\newblock The collage authoring environment.
+\newblock {\em Procedia Computer Science}, 4:608 -- 617, 2011.
+
 \bibitem{onto_soft_what_2016}
-{Onto Soft}.
+{OntoSoft}.
 \newblock What is a {Geoscience} {Paper} of the {Future} {\textbar} {The}
   {Geoscience} {Papers} of the {Future} {Initiative}, 2016.
 \newblock URL: \url{http://www.ontosoft.org/gpf/what-is-a-gpf}.
@@ -75,6 +88,11 @@ Anthony Senyard and Martin Michlmayr.
   pages 84--91. IEEE, 2004.
 \newblock URL:
   \url{http://www.cyrius.com/publications/senyard_michlmayr-successful_project.pdf}.
+
+\bibitem{execpapers}
+Peter Sloot.
+\newblock The executable paper grand challenge, 2011.
+\newblock http://www.executablepapers.com/about-challenge.html.
 
 \bibitem{weiner_astronomical_2009}
 Benjamin~J. Weiner, Michael~R. Blanton, Alison~L. Coil, Michael~C. Cooper,
