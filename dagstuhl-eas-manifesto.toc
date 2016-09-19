@@ -3,15 +3,15 @@
 \contentsline {section}{Executive Summary\relax }{2}{section*.1}
 \let \@secpagenumber \@undefined 
 \let \@secpagenumber \relax 
-\contentsline {section}{Introduction}{4}{section.1}
-\contentsline {section}{Future Research Directions}{12}{section.2}
-\contentsline {subsection}{Quantifying the availability of scientific software}{12}{subsection.2.1}
-\contentsline {subsection}{Facilitating software discovery within and across disciplines}{12}{subsection.2.2}
-\contentsline {subsection}{Sustainability of software experimentation}{13}{subsection.2.3}
-\contentsline {subsection}{Software engineering tools improving productivity by tailoring to intent and skill}{13}{subsection.2.4}
-\contentsline {subsection}{Re-tooling the bibliographic software toolchain for software citation}{14}{subsection.2.5}
-\contentsline {subsection}{Analysis of scientific software ecosystem metadata}{15}{subsection.2.6}
+\contentsline {section}{Introduction}{5}{section.1}
+\contentsline {section}{Future Research Directions}{13}{section.2}
+\contentsline {subsection}{Quantifying the availability of scientific software}{13}{subsection.2.1}
+\contentsline {subsection}{Facilitating software discovery within and across disciplines}{13}{subsection.2.2}
+\contentsline {subsection}{Sustainability of software experimentation}{14}{subsection.2.3}
+\contentsline {subsection}{Software engineering tools improving productivity by tailoring to intent and skill}{14}{subsection.2.4}
+\contentsline {subsection}{Re-tooling the bibliographic software toolchain for software citation}{15}{subsection.2.5}
+\contentsline {subsection}{Analysis of scientific software ecosystem metadata}{16}{subsection.2.6}
 \let \@secpagenumber \relax 
-\contentsline {section}{Participants}{16}{section.3}
-\contentsline {section}{References}{16}{section*.17}
-\contentsline {section}{Related Material}{17}{appendix.A}
+\contentsline {section}{Participants}{17}{section.3}
+\contentsline {section}{References}{17}{section*.17}
+\contentsline {section}{Related Material}{18}{appendix.A}
