@@ -151,7 +151,7 @@ and
 \emph{Academia is software driven.} As software is becoming a pervasive technology for automating and innovating every aspect of the human condition (work, play, love and war), it is also embedded firmly in the academic world. On the one hand, in computer science, and in software engineering research in particular we see experimental software and toolkits emerge continuously, either as part of the \emph{output} of research effort, or as part of the \emph{research method}. On the other hand, in general it may be that software is used even more actively in other fields of research such as mathematics, biology, particle physics, astronomy, medicine, and law. Here too, we can distinguish software that is part of the output (\ie development of innovative production techniques) from software that contributes to the research methods. 
 
 There is an explosion of available open-data online which is accessed and analysed through the creation of new software --- generating more data to analyse. We focus on the \emph{sustainability} of this software, \ie any software that acquires, cleanses, stores, annotates, transforms, filters, generates (\etc) research data.
-By ``sustainability'' we mean the \emph{capacity to endure}. Software is sustainable if it will continue to be available in the future, on new platforms, and meeting new needs. \katznote{Did we come up with this definition?  If not, we should cite where we got it from.  Actually, I see I might have said it - it's from slide 23 of \url{http://www.slideshare.net/danielskatz/scientific-software-challenges-and-community-responses}, though I don't know if made it up or took it from somewhere else and forgot to cite it} 
+By ``sustainability'' we mean the \emph{capacity to endure}. Software is sustainable if it will continue to be available in the future, on new platforms, and meeting new needs. \katznote{Did we come up with this definition?  If not, we should cite where we got it from.  Actually, I see I might have said it - it's from slide 23 of \url{http://www.slideshare.net/danielskatz/scientific-software-challenges-and-community-responses}, though I don't know if made it up or took it from somewhere else and forgot to cite it} \on{Yes, I took it from you. Shall we say, ``We define software to be sustainable ...''?}
 
 
 The perspective of this workshop is that of \emph{the research team developing and/or using academic software.} 
@@ -256,7 +256,7 @@ By requiring authors to provide these links, we will work towards educating the 
 
 \emph{Who else needs to act?} Publishers need to agree to citations being included in publications. Software authors need to provide information about how their software should be cited. Citation tracking systems need to include software citations. 
 Editors and authors too will need to begin to hold their colleagues to this standard in order for this to become a community norm.
-Conference chairs/journal editors may add this requirement explicitly when when publishing a call for papers. Those publishers/repositorians \katznote{I don't know what the name is for people who create and run repositories} need to create mechanisms for all products to includes citations as part of their metadata.
+Conference chairs/journal editors may add this requirement explicitly when when publishing a call for papers. Those publishers/repositorians \katznote{I don't know what the name is for people who create and run repositories} \on{repository administrators?} need to create mechanisms for all products to includes citations as part of their metadata.
 
 %\todo{What are examples of what and what not to cite? Also, there might be differences in granularity that should be considered...}
 %\katznote{see \S5.1 of \url{https://peerj.com/preprints/2169/} for some discussion on this}
@@ -285,7 +285,7 @@ For example, in 1994 the National Academies released a report titled, ``Academic
 \emph{Contradictions or concerns.}
 Software is often considered to be a scientific \emph{instrument} rather than an output itself.%
 \footnote{\url{http://ivory.idyll.org/blog/2015-software-as-a-primary-product-of-science.html}}
-Also, junior researchers may be \katznote{``viewed as''?} wasting effort, accused of padding their resume, or in danger of confusing those who review their CVs. Until it is a community norm, junior researchers must be warned not to rely on these types of research products too heavily, as these notations may be ignored or, even worse, resented.
+Also, junior researchers may be viewed as wasting effort, accused of padding their resume, or in danger of confusing those who review their CVs. Until it is a community norm, junior researchers must be warned not to rely on these types of research products too heavily, as these notations may be ignored or, even worse, resented.
 
 
 \emph{What actions are needed?}
@@ -312,7 +312,7 @@ Some projects are intended to be long-lived and widely usable; others are intend
 
 Initially developing software in closed fora often loses the benefits of open source processes. This includes allowing others to determine whom to credit and follow up regarding technical details. Open access allows developers to adapt code to related contexts. It allows a community of users to share the costs of sustaining the resource. Users can determine how well it fits their needs by inspecting details that are not visible from the external interfaces. In contexts where the quality of the software is critical, open access facilitates verification of correctness. Similarly, security flaws can be identified by a larger group, enabling earlier resolution.
 
-Starting as you intend to continue is important, because projects have their own momentum; it is far more difficult to change once you have established practices and infrastructure. Indeed transitioning from a typical, co-located, PI-directed software development process to an open process involves substantial organizational change across at least three dimensions (i) Governance and Leadership, (ii) Collaboration infrastructure, and (iii) Contribution processes (Howison, 2014). \todo{add full bibtext citation}
+Starting as you intend to continue is important, because projects have their own momentum; it is far more difficult to change once you have established practices and infrastructure. Indeed transitioning from a typical, co-located, PI-directed software development process to an open process involves substantial organizational change across at least three dimensions (i) Governance and Leadership, (ii) Collaboration infrastructure, and (iii) Contribution processes \cite{howison2014collaboration}.
 
 A commonly used argument for not releasing the code associated with a research paper into the wild is that the code is ``bad'' and the scientist will be judged negatively based on the poor quality of the code.
 %\meh{Dismissive, uncharitable comments about existing code, as well as identifying a component that is ``easy'' to ``just'' do in some particular way.}
@@ -539,7 +539,12 @@ One additional necessary element would be tool support to make it easy to get ap
 \subsection{Analysis of scientific software ecosystem metadata}
 
 With better metadata about projects we can pursue systems that provide insight into the scientific software ecosystem.
-Example efforts currently include Depsy\footnote{\url{http://depsy.org}} \todo{reference (Piwowar and Priem) --- can't find this. Is it a paper?} \katznote{I don't think there's a paper - there's a blog: \url{http://blog.impactstory.org/introducing-depsy/} and a draft paper: \url{https://github.com/Impactstory/depsy-research/blob/master/introducing_depsy.md}} and the Scientific Software Network Map\footnote{\url{http://scisoft-net-map.isri.cmu.edu}} \todo{(Bogart, Howison, and Herbsleb) --- is this a paper?} \katznote{I think it was a talk or poster, cited as: ``Bogart, C., Howison, J., \& Herbsleb, J.D. (2015). Mapping the network of scientific software. Washington, DC: The Science of Team Science'' elsewhere}.
+Example efforts currently include Depsy\footnote{\url{http://depsy.org}, \url{http://blog.impactstory.org/introducing-depsy/}}
+%\todo{reference (Piwowar and Priem) --- can't find this. Is it a paper?} \katznote{I don't think there's a paper - there's a blog: \url{http://blog.impactstory.org/introducing-depsy/} and a draft paper: \url{https://github.com/Impactstory/depsy-research/blob/master/introducing_depsy.md}} 
+and the Scientific Software Network Map\footnote{%\url{http://scisoft-net-map.isri.cmu.edu}
+\url{http://scisoft-net-map.isri.cmu.edu:7777}}
+\cite{mcconahy2012techniques,howison2015understanding}.
+% \todo{(Bogart, Howison, and Herbsleb) --- is this a paper?} \katznote{I think it was a talk or poster, cited as: ``Bogart, C., Howison, J., \& Herbsleb, J.D. (2015). Mapping the network of scientific software. Washington, DC: The Science of Team Science'' elsewhere}.
 These take data on software, authors, mentions in publications, and software projects and compose them into maps that provide information on direct and indirect impact, as well as data often hidden from developers (such as which projects are used with others by end users).
 
 Specific questions in the area of ecosystem analysis and metadata are:

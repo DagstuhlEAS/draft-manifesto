@@ -59,6 +59,34 @@ Pieter~Van Gorp and Steffen Mazanek.
 \newblock In {\em Proceedings of the International Conference on Computational
   Science, {ICCS} 2011}, pages 589--597, June 2011.
 
+\bibitem{howison2014collaboration}
+James Howison and Kevin Crowston.
+\newblock Collaboration through open superposition: A theory of the open source
+  way.
+\newblock {\em {MIS} Quarterly}, 38(1):29--50, 2014.
+\newblock URL:
+  \url{http://aisel.aisnet.org/cgi/viewcontent.cgi?article=3156&context=misq}.
+
+\bibitem{howison2015understanding}
+James Howison, Ewa Deelman, Michael~J. McLennan, Rafael~Ferreira da~Silva, and
+  James~D Herbsleb.
+\newblock Understanding the scientific software ecosystem and its impact:
+  Current and future measures.
+\newblock {\em Research Evaluation}, page rvv014, 2015.
+\newblock URL:
+  \url{http://herbsleb.org/web-pubs/pdfs/howison-understanding-2015.pdf}, \href
+  {http://dx.doi.org/10.1093/reseval/rvv014}
+  {\path{doi:10.1093/reseval/rvv014}}.
+
+\bibitem{mcconahy2012techniques}
+A~McConahy, Ben Eisenbraun, James Howison, James~D Herbsleb, and P~Sliz.
+\newblock Techniques for monitoring runtime architectures of socio-technical
+  ecosystems.
+\newblock In {\em Workshop on Data-Intensive Collaboration in Science and
+  Engineering (CSCW 2012)}, 2012.
+\newblock URL:
+  \url{http://www.dicose.org/images/5/5d/Mcconahy_eisenbraun_howison_herbsleb.pdf}.
+
 \bibitem{nick_barnes_science_2013}
 {Nick Barnes}.
 \newblock Science {Code} {Manifesto}, 2013.
