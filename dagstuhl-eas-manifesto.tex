@@ -42,7 +42,7 @@
 \author[12]{Robert Haines}%\affil[12]{University of Manchester, UK}
 \author[13]{Robert Hirschfeld}\affil[13]{~Hasso-Plattner-Institut -- Potsdam, Germany}
 \author[14]{James Howison}\affil[14,24]{~University of Texas at Austin, US}
-\author[15]{Katy Huff}\affil[15]{University of California Berkeley, US}
+\author[15]{Kathryn Huff}\affil[15]{University of Illinois at Urbana-Champaign, US}
 \author[16]{Caroline Jay}%\affil[16]{University of Manchester, UK}
 \author[17]{Daniel S. Katz}\affil[17,22]{~University of Illinois Urbana-Champaign, US}
 \author[18]{Claude Kirchner}\affil[18]{INRIA -- Le Chesnay, France}
@@ -91,7 +91,7 @@ Software, however, is rarely considered to be a citable artifact in its own righ
 With the advent of open-source software, artifact evaluation committees of conferences, and journals that include source code and running systems as part of the published artifacts, we foresee that software will increasingly be part of the academic process.
 The quality and sustainability of this software must be accounted for, both a priori and a posteriori.
 
-The Dagstuhl perspectives seminar on ``Engineering Academic Software'' has examined the strengths, weaknesses, risks and opportunities of academic software engineering. A key outcome of the seminar is this manifesto, serving as a roadmap towards future professional software engineering for software-based research instruments and other software produced and used in an academic context.
+The Dagstuhl Perspectives Workshop on ``Engineering Academic Software'' has examined the strengths, weaknesses, risks and opportunities of academic software engineering. A key outcome of the workshop is this Dagstuhl Manifesto, serving as a roadmap towards future professional software engineering for software-based research instruments and other software produced and used in an academic context.
 The manifesto is expressed in terms of a series of actionable ``pledges'' that users and developers of academic research software can take as concrete steps towards improving the environment in which that software is produced.
 \end{abstract}
 
@@ -105,15 +105,15 @@ The manifesto is expressed in terms of a series of actionable ``pledges'' that u
 %}
 %\license
 
-Although the role of software is becoming increasingly important in diverse fields of research, it is commonly not given due recognition. Software is often not cited, or even considered to be citable. Developers of research software are not given due credit, and may not be invited as co-authors on papers disseminating the research that their software enabled. \katznote{I'm don't think that developers of research software should always be invited as co-authors on papers disseminating the research that their software enabled. It depends on if the research software was developed for that research, or if was developed for something else and just used for that research.  In the former case, perhaps they should be co-authors.  In the latter, their software should be cited, but they should probably not be co-authors.}
-This Dagstuhl perspectives seminar
+Although the role of software is becoming increasingly important in diverse fields of research, it is commonly not given due recognition. Software is often not cited, or even considered to be citable. Developers of research software are not given due credit. In cases where software embodies a core intellectual contribution of research, its creators may not be invited as co-authors on papers disseminating that research. In cases where software that enabled research can be cited, it may not be. \katznote{I'm don't think that developers of research software should always be invited as co-authors on papers disseminating the research that their software enabled. It depends on if the research software was developed for that research, or if was developed for something else and just used for that research.  In the former case, perhaps they should be co-authors.  In the latter, their software should be cited, but they should probably not be co-authors.} \kt{I changed the wording of this paragraph in an attempt to more precisely articulate this distinction.}
+This Dagstuhl Perspectives Workshop
 explored the \emph{current state} of engineering of academic research software,
 identified common \emph{problems} with its development, recognition and sustainability,
 proposed a set of concrete \emph{actions} to improve the state of academic research software, expressed as a number of personal \emph{pledges},
 and
 put forward numerous \emph{future research directions} to better understand and support academic software.
 
-The personal pledges expressed in this manifesto address three general concerns:
+The personal pledges expressed in this Dagstuhl Manifesto\footnote{Dagstuhl Perspectives Workshops explore new and emerging topics in Computer Science, and are expected to produce \emph{Dagstuhl Manifestos} that capture trends and developments related to these topics. See: \url{http://www.dagstuhl.de/en/publications/dagstuhl-manifestos/}} address three general concerns:
 (i) ensuring that research software is properly \emph{cited};
 (ii) promoting the \emph{careers} of research software engineers who develop academic software;
 and
@@ -137,7 +137,7 @@ and
 \begin{itemize}
 \item I will develop software as open source from the start, whenever possible, and I will contribute to sustaining software I use and rely on.
 \item I will match proposed software engineering practices to the actual needs and resources of the project, and I will help scientists improve the quality of their software without passing judgment.
-\item I will publish the intellectual contributions of my research software, and I will document (including usage instructions, and input and output examples), package, release and archive versions of my software.
+\item I will publish the intellectual contributions of my research software, and I will document (including usage instructions, and input and output examples), package, release and archive versions of my software. \kt{Does this belong in the 'citation' bracket ? both are about dissemintaiton-related work}
 \end{itemize}
 
 % ==================================================
@@ -151,10 +151,10 @@ and
 \emph{Academia is software driven.} As software is becoming a pervasive technology for automating and innovating every aspect of the human condition (work, play, love and war), it is also embedded firmly in the academic world. On the one hand, in computer science, and in software engineering research in particular we see experimental software and toolkits emerge continuously, either as part of the \emph{output} of research effort, or as part of the \emph{research method}. On the other hand, in general it may be that software is used even more actively in other fields of research such as mathematics, biology, particle physics, astronomy, medicine, and law. Here too, we can distinguish software that is part of the output (\ie development of innovative production techniques) from software that contributes to the research methods. 
 
 There is an explosion of available open-data online which is accessed and analysed through the creation of new software --- generating more data to analyse. We focus on the \emph{sustainability} of this software, \ie any software that acquires, cleanses, stores, annotates, transforms, filters, generates (\etc) research data.
-By ``sustainability'' we mean the \emph{capacity to endure}. Software is sustainable if it will continue to be available in the future, on new platforms, and meeting new needs. \katznote{Did we come up with this definition?  If not, we should cite where we got it from.  Actually, I see I might have said it - it's from slide 23 of \url{http://www.slideshare.net/danielskatz/scientific-software-challenges-and-community-responses}, though I don't know if made it up or took it from somewhere else and forgot to cite it}
+By ``sustainability'' we mean the \emph{capacity to endure}. Software is sustainable if it will continue to be available in the future, on new platforms, and meeting new needs. \katznote{Did we come up with this definition?  If not, we should cite where we got it from.  Actually, I see I might have said it - it's from slide 23 of \url{http://www.slideshare.net/danielskatz/scientific-software-challenges-and-community-responses}, though I don't know if made it up or took it from somewhere else and forgot to cite it} \on{Yes, I took it from you. Shall we say, ``We define software to be sustainable ...''?}
 
 
-The perspective of this seminar is that of \emph{the research team developing and/or using academic software.} 
+The perspective of this workshop is that of \emph{the research team developing and/or using academic software.} 
 A key role is that of the \emph{research software engineer} (RSE), the person with expertise both in academic research, and in the software engineering tools and technology needed to build the software used in the research, and to make it sustainable. \katznote{1. While I like the RSE title, I think there are other similar titles, perhaps used in other places, and perhaps we should mention some of them, such as Cyberinfrastructure Concierge, research infrastructure engineering, etc.  2. I think there can be a number of different types of people who have expertise in both the research field and software engineering.  Some of them are faculty.  I feel like RSEs generally have more strength in the SE part and less in the domain, while typical faculty have more in the domain and less in SE, but both can be on different points of the spectrum.}
 In this context it is critical that the \emph{intellectual contribution of software} be recognized and actively supported.
 
@@ -177,9 +177,9 @@ Are we certain to be able reproduce previous research methods in the future unde
 What is required in terms of long term funding, education and infra-structure to make the goals of academic software feasible?
 \end{itemize}
 
-The goals of the seminar have been to plan how to widen and deepen the impact of software engineering knowledge in research labs across the globe and to prioritize pressing open questions for the software engineering community with respect to research software.
+The goals of the workshop have been to plan how to widen and deepen the impact of software engineering knowledge in research labs across the globe and to prioritize pressing open questions for the software engineering community with respect to research software.
 
-A key result of this seminar has been to identify a number of concrete \emph{actions} to be taken by researchers involved in the use, production, and evaluation of academic software. These actions are expressed as a series of personal \emph{pledges} that researchers are encouraged to take and follow.
+A key result of this workshop has been to identify a number of concrete \emph{actions} to be taken by researchers involved in the use, production, and evaluation of academic software. These actions are expressed as a series of personal \emph{pledges} that researchers are encouraged to take and follow.
 
 The pledges are organized into three groups, dealing with:
 (i) ensuring that research software is properly \emph{cited};
@@ -256,7 +256,7 @@ By requiring authors to provide these links, we will work towards educating the 
 
 \emph{Who else needs to act?} Publishers need to agree to citations being included in publications. Software authors need to provide information about how their software should be cited. Citation tracking systems need to include software citations. 
 Editors and authors too will need to begin to hold their colleagues to this standard in order for this to become a community norm.
-Conference chairs/journal editors may add this requirement explicitly when when publishing a call for papers. Those publishers/repositorians \katznote{I don't know what the name is for people who create and run repositories} need to create mechanisms for all products to includes citations as part of their metadata.
+Conference chairs/journal editors may add this requirement explicitly when when publishing a call for papers. Those publishers/repositorians \katznote{I don't know what the name is for people who create and run repositories} \on{repository administrators?} need to create mechanisms for all products to includes citations as part of their metadata.
 
 %\todo{What are examples of what and what not to cite? Also, there might be differences in granularity that should be considered...}
 %\katznote{see \S5.1 of \url{https://peerj.com/preprints/2169/} for some discussion on this}
@@ -285,7 +285,7 @@ For example, in 1994 the National Academies released a report titled, ``Academic
 \emph{Contradictions or concerns.}
 Software is often considered to be a scientific \emph{instrument} rather than an output itself.%
 \footnote{\url{http://ivory.idyll.org/blog/2015-software-as-a-primary-product-of-science.html}}
-Also, junior researchers may be \katznote{``viewed as''?} wasting effort, accused of padding their resume, or in danger of confusing those who review their CVs. Until it is a community norm, junior researchers must be warned not to rely on these types of research products too heavily, as these notations may be ignored or, even worse, resented.
+Also, junior researchers may be viewed as wasting effort, accused of padding their resume, or in danger of confusing those who review their CVs. Until it is a community norm, junior researchers must be warned not to rely on these types of research products too heavily, as these notations may be ignored or, even worse, resented.
 
 
 \emph{What actions are needed?}
@@ -312,7 +312,7 @@ Some projects are intended to be long-lived and widely usable; others are intend
 
 Initially developing software in closed fora often loses the benefits of open source processes. This includes allowing others to determine whom to credit and follow up regarding technical details. Open access allows developers to adapt code to related contexts. It allows a community of users to share the costs of sustaining the resource. Users can determine how well it fits their needs by inspecting details that are not visible from the external interfaces. In contexts where the quality of the software is critical, open access facilitates verification of correctness. Similarly, security flaws can be identified by a larger group, enabling earlier resolution.
 
-Starting as you intend to continue is important, because projects have their own momentum; it is far more difficult to change once you have established practices and infrastructure. Indeed transitioning from a typical, co-located, PI-directed software development process to an open process involves substantial organizational change across at least three dimensions (i) Governance and Leadership, (ii) Collaboration infrastructure, and (iii) Contribution processes (Howison, 2014). \todo{add full bibtext citation}
+Starting as you intend to continue is important, because projects have their own momentum; it is far more difficult to change once you have established practices and infrastructure. Indeed transitioning from a typical, co-located, PI-directed software development process to an open process involves substantial organizational change across at least three dimensions (i) Governance and Leadership, (ii) Collaboration infrastructure, and (iii) Contribution processes \cite{howison2014collaboration}.
 
 A commonly used argument for not releasing the code associated with a research paper into the wild is that the code is ``bad'' and the scientist will be judged negatively based on the poor quality of the code.
 %\meh{Dismissive, uncharitable comments about existing code, as well as identifying a component that is ``easy'' to ``just'' do in some particular way.}
@@ -481,8 +481,11 @@ The following specific questions need to be addressed:
 \end{itemize}
 
 \todo{Refer to related work:
-Executable papers, Peter Sloot (Elsevier's executable paper competition),
-SHARE [2.0] Pieter van Gorp}
+Executable papers, Peter Sloot (Elsevier's executable paper competition)~\cite{execpapers} The Collage Authoring Environment~\cite{NOWAKOWSKI2011608},
+SHARE~\cite{DBLP:journals/procedia/GorpM11} [2.0] Pieter van Gorp}
+
+What about this:
+\texttt{http://www.journals.elsevier.com/softwarex}
 
 
 % --------------------------------------------------
@@ -536,7 +539,12 @@ One additional necessary element would be tool support to make it easy to get ap
 \subsection{Analysis of scientific software ecosystem metadata}
 
 With better metadata about projects we can pursue systems that provide insight into the scientific software ecosystem.
-Example efforts currently include Depsy\footnote{\url{http://depsy.org}} \todo{reference (Piwowar and Priem) --- can't find this. Is it a paper?} \katznote{I don't think there's a paper - there's a blog: \url{http://blog.impactstory.org/introducing-depsy/} and a draft paper: \url{https://github.com/Impactstory/depsy-research/blob/master/introducing_depsy.md}} and the Scientific Software Network Map\footnote{\url{http://scisoft-net-map.isri.cmu.edu}} \todo{(Bogart, Howison, and Herbsleb) --- is this a paper?} \katznote{I think it was a talk or poster, cited as: ``Bogart, C., Howison, J., \& Herbsleb, J.D. (2015). Mapping the network of scientific software. Washington, DC: The Science of Team Science'' elsewhere}.
+Example efforts currently include Depsy\footnote{\url{http://depsy.org}, \url{http://blog.impactstory.org/introducing-depsy/}}
+%\todo{reference (Piwowar and Priem) --- can't find this. Is it a paper?} \katznote{I don't think there's a paper - there's a blog: \url{http://blog.impactstory.org/introducing-depsy/} and a draft paper: \url{https://github.com/Impactstory/depsy-research/blob/master/introducing_depsy.md}} 
+and the Scientific Software Network Map\footnote{%\url{http://scisoft-net-map.isri.cmu.edu}
+\url{http://scisoft-net-map.isri.cmu.edu:7777}}
+\cite{mcconahy2012techniques,howison2015understanding}.
+% \todo{(Bogart, Howison, and Herbsleb) --- is this a paper?} \katznote{I think it was a talk or poster, cited as: ``Bogart, C., Howison, J., \& Herbsleb, J.D. (2015). Mapping the network of scientific software. Washington, DC: The Science of Team Science'' elsewhere}.
 These take data on software, authors, mentions in publications, and software projects and compose them into maps that provide information on direct and indirect impact, as well as data often hidden from developers (such as which projects are used with others by end users).
 
 Specific questions in the area of ecosystem analysis and metadata are:
@@ -567,7 +575,7 @@ Specific questions in the area of ecosystem analysis and metadata are:
 \participant Robert Haines\\ University of Manchester
 \participant Robert Hirschfeld\\ Hasso-Plattner-Institut -- Potsdam
 \participant James Howison\\ University of Texas -- Austin
-\participant Katy Huff\\ University of California -- Berkeley
+\participant Kathryn Huff\\ University of Illinois at Urbana-Champaigh
 \participant Caroline Jay\\ University of Manchester
 \participant Dan Katz\\ University of Illinois at Urbana Champaign
 \participant Claude Kirchner\\ INRIA -- Le Chesnay
@@ -594,6 +602,7 @@ We thank Tobias Rawald (GFZ Potsdam) for his contributions to the phrasing of th
 % ==========================================================
 %\bibliography{dagman-sample} % use bibtex or thebibliography-environment (as below)
 
+
 \bibliography{eas}
 
 
@@ -612,8 +621,8 @@ Other topics addressed by such manifestos include emphasis on access to source c
 
 Emphasis on grass-roots support and institutional change toward visibility of the research contributions of software and software engineers are also addressed by many of these manifestors. A domain-specific manifesto, ``Astronomical Software Wants To Be Free: A Manifesto,'' is a key example of a call to arms for that community to value the software underlying their science \cite{weiner_astronomical_2009}. Broader calls for this community action are included in the  UK RSE objectives and the Science Code Manifesto.
 
-Many are more focused on the practice of reproducible software development for research. These inclue the Open Science Peer Review Oath, the Reproducibility PI Manifesto, the GeoScience Paper of the Future Initiative, and the FAIR principles. 
-
+Many are more focused on the practice of reproducible software development for research. These include the Open Science Peer Review Oath, the Reproducibility PI Manifesto, the GeoScience Paper of the Future Initiative, and the FAIR principles. 
+The Journal of the American Statistical Association (JASA) will now insist on the availability of code and data during the review of manuscripts \cite{Baker2016}.
 
 % ----------
 \manifesto{Science Code Manifesto}~\cite{nick_barnes_science_2013}\footnote{\url{http://sciencecodemanifesto.org/}}
@@ -655,7 +664,7 @@ includes terms to make software reusable by others. It is focused on reproducibi
 
 % ----------
 \manifesto{The GeoScience paper of the future initiative}~\cite{onto_soft_what_2016}\footnote{\url{http://www.ontosoft.org/gpf/what-is-a-gpf}}
-has a set of requirements for software to be included in a paper: ``with documentation, a license for reuse, and a unique and citable persistent identifier''. Differences with the scope of our seminar: it involves also data and its provenance, focusing more on the paper itself rather than the software.
+has a set of requirements for software to be included in a paper: ``with documentation, a license for reuse, and a unique and citable persistent identifier''. Differences with the scope of our workshop: it involves also data and its provenance, focusing more on the paper itself rather than the software.
 
 % ----------
 \manifesto{FAIR principles}~\cite{wilkinson_fair_2016}\footnote{\url{http://www.nature.com/articles/sdata201618}}
