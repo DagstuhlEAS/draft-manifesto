@@ -33,7 +33,7 @@
 \author[3]{Christoph Becker}\affil[3]{University of Toronto, Canada}
 \author[4]{Jeffrey Carver}\affil[4]{University of Alabama, US}
 \author[5]{Andrei Chi\c{s}}\affil[5,21]{~University of Bern, Switzerland}
-\author[6]{Benoit Combemale}\affil[6]{IRISA -- Rennes, France}
+\author[6]{Benoit Combemale}\affil[6]{University of Rennes 1, IRISA, France}
 \author[7]{Mike Croucher}\affil[7]{University of Sheffield, UK}
 \author[8]{Kevin Crowston}\affil[8]{Syracuse University, US}
 \author[9]{Daniel Garijo}\affil[9]{Technical University of Madrid, Spain}
@@ -118,7 +118,7 @@ The personal pledges expressed in this Dagstuhl Manifesto\footnote{Dagstuhl Pers
 (i) ensuring that research software is properly \emph{cited};
 (ii) promoting the \emph{careers} of research software engineers who develop academic software;
 and
-(iii) ensuring the quality and sustainability of software during its \emph{development}:
+(iii) ensuring the quality and sustainability of software during \bc{qu: only during? or also possibly after (i.e. thorough the whole lifecycle, incl. how to set up / organize the maintenance, evolution...) ?} its \emph{development}:
 
 % ----------
 \paragraph{Citation}
@@ -138,7 +138,7 @@ and
 \begin{itemize}
 \item I will develop software as open source from the start, whenever possible, and I will contribute to sustaining software I use and rely on.
 \item I will match proposed software engineering practices to the actual needs and resources of the project, and I will help scientists improve the quality of their software without passing judgment.
-\item I will publish the intellectual contributions of my research software, and I will document (including usage instructions, and input and output examples), package, release and archive versions of my software. \kt{Does this belong in the 'citation' bracket ? both are about dissemination-related work} \katznote{the first part of it is more close to citation, but the second part is not.  I think it better fits here.  Another option would be changing this heading to ``Development and Dissemination'', though I'm not really sure that's a better option.}
+\item I will publish the intellectual contributions of my research software, and I will document (including usage instructions, and input and output examples), package, release and archive versions of my software. \kt{Does this belong in the 'citation' bracket ? both are about dissemination-related work} \katznote{the first part of it is more close to citation, but the second part is not.  I think it better fits here.  Another option would be changing this heading to ``Development and Dissemination'', though I'm not really sure that's a better option.}\bc{I see here at least two separate pledges: 1) software lifecycle management: including proper and documented releases, packaging, etc., and 2) the intellectual property to give the appropriate credits (this belongs more on the citation part?)}
 \end{itemize}
 
 % ==================================================
@@ -214,7 +214,7 @@ and
 
 \subsection{Pledge discussion}
 
-Here we discuss, for each pledge, the \emph{background} motivating the pledge, possible \emph{contradictions or concerns} pose challenges for the pledge, \emph{what actions are needed}, what impact these actions are expected to bring, and who else needs to take action.
+Here we discuss, for each pledge, the \emph{background} motivating the pledge, possible \emph{contradictions or concerns} pose challenges for the pledge, \emph{what actions are needed}, \emph{what impact} these actions are expected to bring, and \emph{who else needs to take action}.
 
 
 
@@ -244,12 +244,14 @@ There may be resistance from individual authors, even in the open science commun
 Academics whose careers are impacted by their relationships with editors at prestigious journals may worry about annoying those editors. While this is a battle worth fighting for, junior researchers may be anxious about making this stand against more powerful individuals who might misinterpret it. 
 This also increases the effort needed to review papers.  Various models for this have been suggested to reduce this, such as not having all reviewers required to test the software, to having special software reviewers who are assigned to reviewing software but not the full paper.
 
-Journals may have citation limits or page limits, so that adding software citations have the cost of removing other citations or removing research.
+Journals may have citation limits or page limits, so that adding software citations have the cost of removing other citations or removing research. \bc{already said earlier in the same part}
 
 For new types of scholarly works, for example software itself or data, there are no commonly accepted standard practices for how to publish that work with citations.
 
 \emph{What actions are needed?}
-Require a link to the software (screenshots are not enough!). Running examples will be helpful as well.
+Require a link to the software (screenshots are not enough!) \bc{,or the relevant citation when available}. 
+%
+Running examples will be helpful as well\bc{is it really related to "citation"?}. 
 
 Reviewers need to take software seriously, and when a piece of software is mentioned, either by name or by description in the body of the work, in the acknowledgements, or in the citations, check to see if it is well-cited.  When software is the published work in question, other software on which it depends should be cited.%
 \footnote{Although it may not be clear how to do so. See:\\ \url{https://danielskatzblog.wordpress.com/2016/03/25/how-should-we-add-citations-inside-software/}.}
@@ -264,7 +266,7 @@ By requiring authors to provide these links, we will work towards educating the 
 
 \emph{Who else needs to act?} Publishers need to agree to citations being included in publications. Software authors need to provide information about how their software should be cited. Citation tracking systems need to include software citations. 
 Editors and authors too will need to begin to hold their colleagues to this standard in order for this to become a community norm.
-Conference chairs/journal editors may add this requirement explicitly when when publishing a call for papers. Publishers and repository adminstrators
+Conference chairs/journal editors may add this requirement explicitly when when publishing a call for papers. Publishers and repository administrators
 % \katznote{I don't know what the name is for people who create and run repositories} \on{repository administrators?}
 need to create mechanisms for all products to includes citations as part of their metadata.
 
@@ -283,7 +285,7 @@ need to create mechanisms for all products to includes citations as part of thei
 % \on{was: I will include my software activities in my CV and in activity reports, and ask where they should go if they are not present. I will discuss and highlight these contributions when reviewing CVs \etc}
 
 \emph{Background.}
-Funding agencies such as the US NSF are beginning to recognize research products such as software just as they do publications. This acknowledges the contributions of software as a primary research product. Including these in CVs and reports as well as requiring them from others is an important step towards normalizing them as having similar stature to publications. 
+Funding agencies such as the US NSF are beginning to recognize research products such as software just as they do for publications. This acknowledges the contributions of software as a primary research product. Including these in CVs and reports as well as requiring them from others is an important step towards normalizing them as having similar stature to publications. 
 
 The guidelines used for promotion and evaluation are important because they specify what is valued and thus shape the activities that people undertake. Ultimately promotion also determines who continues to be employed and thus whether people can continue to make software contributions at all. Since promotion guidelines are written by the powerful within institutions, many people feel they can have little or no impact on them; even the powerful feel that they cannot deviate from how these are defined in similar institutions, leading to a stalemate that prevents change.
 Nevertheless, we are all evaluated and we evaluate others, and we can influence these processes when we participate in these evaluations.
@@ -347,7 +349,7 @@ There is literature on success in open source arguing that projects should start
 
 
 \emph{What actions are needed?}
-Promote a culture acknowledging that any code contribution attached to a research paper that makes is possible to reproduce research results is valuable, regardless of the quality of the code. Once the code is freely available its quality can be improved.
+Promote a culture acknowledging that any code contribution attached to a research paper that makes it possible to reproduce research results is valuable, regardless of the quality of the code. Once the code is freely available its quality can be improved.
 Provide, at the university level, services for code review that scientists wanting to release their code can use. This can increase both their confidence and their technical skills. 
 
 %A framework for understanding different kinds of software would be useful, along with better ways to evaluate the likely utility of a piece of software. 
@@ -355,7 +357,7 @@ Provide, at the university level, services for code review that scientists wanti
 Establish a specific plan for releasing scientific source code from day one of development. This should include:
 \begin{itemize}
 \item an initial specification of the software license, compliant with the sponsoring institution's IP policies;
-\item a plan for for relicensing in the future should the business environment surrounding a project's development change;
+\item a plan for relicensing in the future should the business environment surrounding a project's development change;
 \item a plan for identifying and mitigating license conflicts with software dependencies that may be introduced into the current product;
 \item a policy for applying this software licensing plan uniformly to all (or as many as allowable) projects under a specific manager's supervision. 
 \end{itemize}
@@ -578,7 +580,7 @@ Specific questions in the area of ecosystem analysis and metadata are:
 \participant Christoph Becker\\ University of Toronto
 \participant Jeffrey Carver\\ University of Alabama
 \participant Andrei Chi\c{s}\\ University of Bern
-\participant Benoit Combemale\\ IRISA -- Rennes
+\participant Benoit Combemale\\ University of Rennes 1
 \participant Mike Croucher\\ University of Sheffield
 \participant Kevin Crowston\\ Syracuse University
 \participant Daniel Garijo\\ Technical University of Madrid
