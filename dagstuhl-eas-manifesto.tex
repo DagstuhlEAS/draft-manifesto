@@ -485,7 +485,9 @@ Claims of cost of hidden software or infrastructure maintenance remain (often) a
 % --------------------------------------------------
 \subsection{Sustainability of software experimentation}
 
-Reproducibility of scientific experiments with major computational components requires prepared environments that will, in principle, allow experiments to be redone in 2, 10, 100, and perhaps even 1000 years. We envision a future in which programs should be rerunnable and feel as persistent as email seems today. A journal like IPOL\footnote{\url{http://www.ipol.im}}, for example, allows authors to publish a paper together with a runnable program, at least on the current machine available in 2016. Jupyter Notebook\footnote{\url{http://jupyter.org}} allows all necessary components and dependencies to be bundled. To extend the persistence of software execution across environments and tools opens new research tracks in the rapidly changing hardware and software environments that we currently live with.
+Reproducibility of scientific experiments with major computational components requires prepared environments that will, in principle, allow experiments to be redone in 2, 10, 100, and perhaps even 1000 years. We envision a future in which programs should be rerunnable and feel as persistent as email seems today. A journal like IPOL\footnote{\url{http://www.ipol.im}}, for example, allows authors to publish a paper together with a runnable program, at least on the current machine available in 2016. Jupyter Notebook\footnote{\url{http://jupyter.org}} allows all necessary components and dependencies to be bundled. Other initial work in this area includes Elsevier's executable paper competition~\cite{execpapers}, the Collage Authoring Environment~\cite{NOWAKOWSKI2011608},
+SHARE~\cite{DBLP:journals/procedia/GorpM11}, the Scientific Paper of the Future\footnote{\url{http://www.scientificpaperofthefuture.org/gpf/}.}~\cite{onto_soft_what_2016}, and RunMyCode\footnote{\url{http://www.runmycode.org}.}, and many other examples.
+To extend the persistence of software execution across environments and tools opens new research tracks in the rapidly changing hardware and software environments that we currently live with.
 
 The following specific questions need to be addressed:
 
@@ -497,18 +499,14 @@ The following specific questions need to be addressed:
     \item De-optimization, porting, refactoring of academic software?
     \item Translation of legacy data formats?
     \end{itemize}
-\item How/when to transition grant funded scientific software projects to alternative models of support including commercialization or building true peer production open source ocmmunities in which those using the software contribute enough time to keep the software scientifically useful~\cite{howison2015understanding,howison_sustaining_2015,bietz_sustaining_2012}
+\item How/when to transition grant funded scientific software projects to alternative models of support including commercialization or building true peer production open source communities in which those using the software contribute enough time to keep the software scientifically useful~\cite{howison2015understanding,howison_sustaining_2015,bietz_sustaining_2012,sustaining-research-projects}
 \end{itemize}
 
-\on{OK, what do we need to do here now ... ?}
-\todo{Refer to related work:
-Executable papers, Peter Sloot (Elsevier's executable paper competition)~\cite{execpapers} The Collage Authoring Environment~\cite{NOWAKOWSKI2011608},
-SHARE~\cite{DBLP:journals/procedia/GorpM11} [2.0] Pieter van Gorp}
-\katznote{and Geoscience Papers of the Future (GPF) -- \url{http://www.scientificpaperofthefuture.org/gpf/} (cited later as \cite{onto_soft_what_2016} though I think the URL I gave is a little better); as an older experiment - \url{http://www.runmycode.org}}
 
-What about this:
-\texttt{http://www.journals.elsevier.com/softwarex}
-\katznote{If we want to talk about journals that publish software, we should also add JORS (\url{http://openresearchsoftware.metajnl.com}) and JOSS (\url{http://joss.theoj.org}) as general ones, and refer to \url{https://www.software.ac.uk/which-journals-should-i-publish-my-software} for a longer list}
+
+%What about this:
+%\texttt{http://www.journals.elsevier.com/softwarex}
+%\katznote{If we want to talk about journals that publish software, we should also add JORS (\url{http://openresearchsoftware.metajnl.com}) and JOSS (\url{http://joss.theoj.org}) as general ones, and refer to \url{https://www.software.ac.uk/which-journals-should-i-publish-my-software} for a longer list}
 
 
 % --------------------------------------------------
@@ -636,13 +634,14 @@ We thank Tobias Rawald (GFZ Potsdam) for his contributions to the phrasing of th
 \section{Related Material}
 
 \subsection*{Pointers to, and commentary on, existing manifestos}
-The open science and research software communities have been very active in creating manifestos in the style of calls to action. In this section, we will pull these together and provide some commentary on them, based on our discussions this week.
+The open science and research software communities have been very active in creating manifestos in the style of calls to action. In this section, we discuss some of them, based on our discussions at the
+Dagstuhl EAS meeting.
 
-Some such manifestos have calls for improved software and bibliography metadata for persistent citation of software. These include both the FAIR guiding principles and the Force11 Software Citation Principles and the Science Code Manifesto \cite{wilkinson_fair_2016,arfon_m._smith_software_2016,nick_barnes_science_2013}.
+Some such manifestos have calls for improved software and bibliography metadata for persistent citation of software. These include both the FAIR guiding principles and the FORCE11 Software Citation Principles and the Science Code Manifesto \cite{wilkinson_fair_2016,arfon_m._smith_software_2016,nick_barnes_science_2013}.
 
 Other topics addressed by such manifestos include emphasis on access to source code, which was also a topic of interest in this workshop. Manifestos that address this topic include the Science Code Manifesto, and the Karlskrona Manifesto for Sustainability Design.
 
-Emphasis on grass-roots support and institutional change toward visibility of the research contributions of software and software engineers are also addressed by many of these manifestors. A domain-specific manifesto, ``Astronomical Software Wants To Be Free: A Manifesto,'' is a key example of a call to arms for that community to value the software underlying their science \cite{weiner_astronomical_2009}. Broader calls for this community action are included in the  UK RSE objectives and the Science Code Manifesto.
+Emphasis on grass-roots support and institutional change toward visibility of the research contributions of software and software engineers are also addressed by many of these manifestos. A domain-specific manifesto, ``Astronomical Software Wants To Be Free: A Manifesto,'' is a key example of a call to arms for that community to value the software underlying their science \cite{weiner_astronomical_2009}. Broader calls for this community action are included in the  UK RSE objectives and the Science Code Manifesto.
 
 Many are more focused on the practice of reproducible software development for research. These include the Open Science Peer Review Oath, the Reproducibility PI Manifesto, the GeoScience Paper of the Future Initiative, and the FAIR principles.
 The Journal of the American Statistical Association (JASA) will now insist on the availability of code and data during the review of manuscripts \cite{Baker2016}.
@@ -652,11 +651,9 @@ The Journal of the American Statistical Association (JASA) will now insist on th
 Focuses on ``source code written to specifically process data for a published paper.''
 Therefore, may only cover a portion of the types of software of interest (e.g. from the wording it appears that software that produces scientific data may not be included here).
 It does cover Code, Copyright, Citation, Credit, and Curation.
-The principles do not seem to be in conflict with our discussions this week
 
 % ----------
-\manifesto{Force 11 Software Citation principles}~\cite{arfon_m._smith_software_2016}\footnote{draft at
-\url{https://www.force11.org/software-citation-principles}}
+\manifesto{FORCE11 Software Citation principles}~\cite{arfon_m._smith_software_2016}\footnote{\url{https://www.force11.org/software-citation-principles}}
 emphasize persistence and clarity.
 
 % ----------
@@ -691,7 +688,7 @@ has a set of requirements for software to be included in a paper: ``with documen
 
 % ----------
 \manifesto{FAIR principles}~\cite{wilkinson_fair_2016}\footnote{\url{http://www.nature.com/articles/sdata201618}}
-includes focus on research data. The goal is to make them findable, accessible, interoperable and reusable. Can we apply these principles to software too?
+includes focus on research data. The goal is to make them findable, accessible, interoperable and reusable. These principles can generally be applied to software as well.
 
 
 % ==========================================================
