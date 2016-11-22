@@ -32,27 +32,27 @@
 \author[2]{Cecilia Aragon}\affil[2]{University of Washington -- Seattle, US}
 \author[3]{Christoph Becker}\affil[3]{University of Toronto, Canada}
 \author[4]{Jeffrey Carver}\affil[4]{University of Alabama, US}
-\author[5]{Andrei Chi\c{s}}\affil[5,21]{~University of Bern, Switzerland}
+\author[5]{Andrei Chi\c{s}}\affil[5]{University of Bern, Switzerland}
 \author[6]{Benoit Combemale}\affil[6]{University of Rennes 1, IRISA, France}
 \author[7]{Mike Croucher}\affil[7]{University of Sheffield, UK}
 \author[8]{Kevin Crowston}\affil[8]{Syracuse University, US}
 \author[9]{Daniel Garijo}\affil[9]{Technical University of Madrid, Spain}
 \author[10]{Ashish Gehani}\affil[10]{SRI -- Menlo Park, US}
-\author[11]{Carole Goble}\affil[11,12,16]{~University of Manchester, UK}
-\author[12]{Robert Haines}%\affil[12]{University of Manchester, UK}
-\author[13]{Robert Hirschfeld}\affil[13]{~Hasso-Plattner-Institut -- Potsdam, Germany}
-\author[14]{James Howison}\affil[14,24]{~University of Texas at Austin, US}
-\author[15]{Kathryn Huff}\affil[15,17,22]{~University of Illinois at Urbana-Champaign, US}
-\author[16]{Caroline Jay}%\affil[16]{University of Manchester, UK}
-\author[17]{Daniel S. Katz}%\affil[17,22]{~University of Illinois Urbana-Champaign, US}
-\author[18]{Claude Kirchner}\affil[18]{INRIA -- Le Chesnay, France}
-\author[19]{Katie Kuksenok}\affil[19]{University of Washington -- Seattle, US}
-\author[20]{Ralf L\"{a}mmel}\affil[20]{Universit\"{a}t Koblenz-Landau, Germany}
-\author[21]{Oscar Nierstrasz}%\affil[21]{University of Bern, Switzerland}
-\author[22]{Matt Turk}%\affil[22]{University of Illinois Urbana-Champaign, US}
-\author[23]{Rob van Nieuwpoort}\affil[23]{VU University Amsterdam, The Netherlands}
-\author[24]{Matthew Vaughn}%\affil[24]{University of Texas at Austin, US}
-\author[25]{Jurgen Vinju}\affil[25]{CWI -- Amsterdam, The Netherlands}
+\author[11]{Carole Goble}\affil[11]{University of Manchester, UK}
+\author[11]{Robert Haines}%\affil[12]{University of Manchester, UK}
+\author[12]{Robert Hirschfeld}\affil[12]{Hasso-Plattner-Institut -- Potsdam, Germany}
+\author[13]{James Howison}\affil[13]{University of Texas at Austin, US}
+\author[14]{Kathryn Huff}\affil[14]{University of Illinois at Urbana-Champaign, US}
+\author[11]{Caroline Jay}%\affil[16]{University of Manchester, UK}
+\author[14]{Daniel S. Katz}%\affil[17,22]{~University of Illinois Urbana-Champaign, US}
+\author[15]{Claude Kirchner}\affil[15]{INRIA -- Le Chesnay, France}
+\author[16]{Katie Kuksenok}\affil[16]{University of Washington -- Seattle, US}
+\author[17]{Ralf L\"{a}mmel}\affil[17]{Universit\"{a}t Koblenz-Landau, Germany}
+\author[5]{Oscar Nierstrasz}%\affil[21]{University of Bern, Switzerland}
+\author[14]{Matt Turk}%\affil[22]{University of Illinois Urbana-Champaign, US}
+\author[18]{Rob van Nieuwpoort}\affil[18]{VU University Amsterdam, The Netherlands}
+\author[13]{Matthew Vaughn}%\affil[24]{University of Texas at Austin, US}
+\author[19]{Jurgen Vinju}\affil[19]{CWI -- Amsterdam, The Netherlands}
 
 \authorrunning{A. Allen et al.}%optional
 
@@ -547,7 +547,7 @@ In the bibtex world, this means standardizing a type definition (\eg @software, 
 
 In the Citation Style Language (CSL) world, used by Zotero, Mendeley, and Papers, we need a CSL type that is well support by the user interfaces, the citeproc implementations to pass it through to the CSL files\footnote{\eg \url{https://github.com/citation-style-language/styles}} and the CSL files to know what to do with it.
 
-In the Endnote world Endnote and its proprietary style system makes some things difficult to change from the outside. Endnote has to have an appropriate type, and the style files have to process it.\footnote{Some information on this is available here:\\ \url{http://endnote.com/sites/en/files/m/pdf/en-x7-win-editing-reference-types-styles.pdf}}
+In the Endnote world, Endnote and its proprietary style system makes some things difficult to change from the outside. Endnote has to have an appropriate type, and the style files have to process it.\footnote{Some information on this is available here:\\ \url{http://endnote.com/sites/en/files/m/pdf/en-x7-win-editing-reference-types-styles.pdf}}
 
 We can define a set of example software citations and produce metadata records for them. We can then use a continuous integration tool to run each of those through each style in each bibliographic tool chain. We can then compare the outputs to the software citation principles and say whether the style file produces valid software citations. By automating that comparison we can define a test.
 
