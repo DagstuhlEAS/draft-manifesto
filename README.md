@@ -14,11 +14,10 @@ There is a [Slack team](https://eas-manifesto.slack.com/) for this project.
   - assess the WSSSPE poll results
     - [poll](https://goo.gl/gnDKsf)
     - [results](https://goo.gl/CzQux1)
-- add missing references
-- address other pending comments in the manifesto
 - Submit by Dec 15, 2016 at the lastest
 
-The draft of Sept 14 resides on dropbox [here](https://dl.dropboxusercontent.com/u/11565521/dagstuhl-eas-manifesto-2016-09-14.pdf)
+The draft of Nov 22 resides on dropbox [here](https://dl.dropboxusercontent.com/u/11565521/dagstuhl-eas-manifesto-2016-11-22.pdf)
+
 
 ---
 
