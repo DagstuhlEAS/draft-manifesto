@@ -10,13 +10,10 @@ There is a [Slack team](https://eas-manifesto.slack.com/) for this project.
 
 # TO DO
 
-- finalize the selection of pledges for the manifesto
-  - assess the WSSSPE poll results
-    - [poll](https://goo.gl/gnDKsf)
-    - [results](https://goo.gl/CzQux1)
-- Submit by Dec 15, 2016 at the lastest
+Changes have slowed to a trickle. Please check the current draft if you have not done so already.
+If there are no objections, the document will be delivered to Roswitha at Dagstuhl this Friday Dec 2.
 
-The draft of Nov 22 resides on dropbox [here](https://dl.dropboxusercontent.com/u/11565521/dagstuhl-eas-manifesto-2016-11-22.pdf)
+The draft of Nov 30 resides on dropbox [here](https://dl.dropboxusercontent.com/u/11565521/dagstuhl-eas-manifesto-2016-11-30.pdf)
 
 
 ---
