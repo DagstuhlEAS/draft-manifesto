@@ -13,7 +13,7 @@ There is a [Slack team](https://eas-manifesto.slack.com/) for this project.
 Changes have slowed to a trickle. Please check the current draft if you have not done so already.
 If there are no objections, the document will be delivered to Roswitha at Dagstuhl this Friday Dec 2.
 
-The draft of Nov 30 resides on dropbox [here](https://dl.dropboxusercontent.com/u/11565521/dagstuhl-eas-manifesto-2016-11-30.pdf)
+The draft of Dec 1 resides on dropbox [here](https://dl.dropboxusercontent.com/u/11565521/dagstuhl-eas-manifesto-2016-12-01.pdf)
 
 
 ---
