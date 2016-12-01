@@ -279,7 +279,7 @@ This also increases the effort needed to review papers.  Various models for this
 For new types of scholarly works, for example software itself or data, there are no commonly accepted standard practices for how to publish that work with citations.
 
 \emph{What actions are needed?}
-Require a link to the software (screenshots are not enough!),or provide the relevant citation if it is available.
+Require a link to the software, or provide the relevant citation if it is available. Screenshots are not enough!
 %
 % Running examples will be helpful as well\bc{is it really related to "citation"?}.
 
@@ -571,13 +571,13 @@ Here are some possible starting points for further research:
 
 For the vision of software citation to be realized, authors need to be able to store a metadata record for software with the needed fields, have the toolchain pass these fields through, and have style files produce output that includes them. To achieve this, interfaces for metadata storage will need to be upgraded to meet these needs and improved style files will need to be pushed into the hands of users.
 
-There are three broadly used bibliographic toolchains:
+There are three broadly used bibliographic toolchains (although there are many other systems.)%
+\footnote{\url{https://en.wikipedia.org/wiki/Comparison_of_reference_management_software}}
 \begin{enumerate}
-\item bibtex,
+\item \textsc{Bib}\TeX,
 \item citation style language (Zotero | Papers | Mendeley \ra citeproc \ra Word | pandoc | Pages),  and \item Endnote.
 \end{enumerate}
-Note, though, that there are many other systems.%
-\footnote{\url{https://en.wikipedia.org/wiki/Comparison_of_reference_management_software}}
+
 
 In the bibtex world, this means standardizing a type definition (\eg @software, although there may be existing partial standards) and have bibtex interfaces (such as bibdesk) handle it properly. The modern implementations of bibtex pass through unknown types, so that is fine. Then the bst files need to know what to do when receiving an @software record.
 
