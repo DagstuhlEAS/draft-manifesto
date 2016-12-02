@@ -1,44 +1,26 @@
 # draft-manifesto
 
-This github repo resides [here](https://github.com/DagstuhlEAS/draft-manifesto)
+This github repo resides at <https://github.com/DagstuhlEAS/draft-manifesto>.
 
-This repository is being used for building the Manifesto that will be one of the outputs of the Dagstuhl Seminar 16252: [Engineering Academic Software](http://www.dagstuhl.de/en/program/calendar/semhp/?semnr=16252)
+This repository was used to build the [Dagstuhl Manifesto](http://www.dagstuhl.de/en/publications/dagstuhl-manifestos/) that is one of the outputs of the Dagstuhl Seminar 16252: [Engineering Academic Software](http://www.dagstuhl.de/en/program/calendar/semhp/?semnr=16252).
 
 There is a [Slack team](https://eas-manifesto.slack.com/) for this project.
 
 ---
+# Abstract
 
-# TO DO
+Software is often a critical component of scientific research.
+It can be a component of the academic research methods used to produce research results, or it may itself be an academic research result.
+Software, however, has rarely been considered to be a citable artifact in its own right.
+With the advent of open-source software, artifact evaluation committees of conferences, and journals that include source code and running systems as part of the published artifacts, we foresee that software will increasingly be recognized as part of the academic process.
+The quality and sustainability of this software must be accounted for, both *a priori* and *a posteriori*.
 
-Changes have slowed to a trickle. Please check the current draft if you have not done so already.
-If there are no objections, the document will be delivered to Roswitha at Dagstuhl this Friday Dec 2.
+The Dagstuhl Perspectives Workshop on “Engineering Academic Software” has examined the strengths, weaknesses, risks, and opportunities of academic software engineering. A key outcome of the workshop is this Dagstuhl Manifesto, serving as a roadmap towards future professional software engineering for software-based research instruments and other software produced and used in an academic context.
+The manifesto is expressed in terms of a series of actionable “pledges” that users and developers of academic research software can take as concrete steps towards improving the environment in which that software is produced.
 
-The draft of Dec 1 resides on dropbox [here](https://dl.dropboxusercontent.com/u/11565521/dagstuhl-eas-manifesto-2016-12-01.pdf)
+# Final draft
 
+The final submitted draft of Dec 2 resides on dropbox [here](https://dl.dropboxusercontent.com/u/11565521/dagstuhl-eas-manifesto-2016-12-02.pdf)
 
----
-
-# Instructions
-
-From Roswitha.Bardohl@dagstuhl.de
-
-Dagstuhl Manifesto:
-===================
-
-You can read at http://www.dagstuhl.de/en/program/dagstuhl-perspectives/ (and from your motivation text):
-
-" ... Such a manifesto should include research directions that are put into a larger context, like its relevance for society and economy, applications, and relations to other fields. Its audience goes beyond the inner circle of experts and should include policy makers.
-Dagstuhl's Scientific Directorate acts as editoral board for Dagstuhl Manifestos. Once a manifesto is accepted, it will be published in the series Dagstuhl Manifestos. Furthermore, manifestos are passed to national and European funding agencies. ..."
-
-Please have a look at the boxes of the right-hand-side of the webpage http://www.dagstuhl.de/en/publications/dagstuhl-manifestos/ where we provide a sample manifesto and in addition, a LaTeX-template and guidelines for the authors/editors.
-
-A manifesto has about 15 to 25 pages. It summaries the status quo of the field and shows visions for future research directions. 
-I don't know how much time you need to finish the Dagstuhl Manifesto, but I'd like to ask you to send it latest in the Middle of December, 2016. Is this feasible? - Please inform me if you cannot met the deadline.
-
-I'd appreciate, if you support me with the distribution of the manifesto once it is accepted for publication by our Scientific Directorate. What I need are contact details (at least names and the institution) of important persons from funding/research agencies and a brief, appealing text for the letters our Scientific Director will sign when we send the manifesto. 
-
-I assume that you and your participants know some important persons from funding agencies which could/should be interested in the outcome of your workshop. We would be glad if some of your achievements are taken into account when setting up new research programs!
-
-Please note, that we would like to send cca. 20 printed and binded Dagstuhl Manifestos and unrestricted many manifestos via mail.
 
 ---
